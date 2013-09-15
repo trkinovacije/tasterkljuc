@@ -152,12 +152,13 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Iz kuhinje otkljuvam interfon.<br /> <span class="text-muted">Ovo će vas oduševiti.</span></h2>
-          <p class="lead">Zamislite situaciju da dok kuvate ručak ili ste zauzeti nečim drugim, neki komšija koji je zavoravio ključ vam zvoni na interfon. Vama naravno nije stalo da prekidate posao i javljate se na interfonski poziv. Ipak, ne možete da kulirate, možda je nešto važno.
-          Naš uređaj mu se javlja sa pitanjem: "Halo, ko je ?", a vi putem spikerfona prepoznajete da je to samo mali komšija koji je zavoravio ključ. Tada dvostrukim lupkanjem o sto vi otvarate vrata ne prekidajući vaš posao.</p>
+          <h2 class="featurette-heading">Kome ovo koristi?<br /> <span class="text-muted">video animacija</span></h2>
+          <p class="lead">I dok svakodnevno čekamo da nam neko otključa vrata ili tražimo ključ od ulaza, male komšije nemaju tih problema. .</p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 " id="youtube_animation">
+        <div class="vendor">
+        	<iframe width="420" height="315" src="http://www.youtube.com/embed/A-4Hlwako5A?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
         </div>
       </div>
 
@@ -175,10 +176,11 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+     <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Iz kuhinje otkljuvam interfon.<br /> <span class="text-muted">Ovo će vas oduševiti.</span></h2>
+          <p class="lead">Zamislite situaciju da dok kuvate ručak ili ste zauzeti nečim drugim, neki komšija koji je zavoravio ključ vam zvoni na interfon. Vama naravno nije stalo da prekidate posao i javljate se na interfonski poziv. Ipak, ne možete da kulirate, možda je nešto važno.
+          Naš uređaj mu se javlja sa pitanjem: "Halo, ko je ?", a vi putem spikerfona prepoznajete da je to samo mali komšija koji je zavoravio ključ. Tada dvostrukim lupkanjem o sto vi otvarate vrata ne prekidajući vaš posao.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -193,7 +195,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 TRK INOVACIJE DOO NOVI SAD. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 TRK INOVACIJE &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -205,6 +207,13 @@
     <script src="./assets/js/jquery.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
     <script src="./assets/js/holder.js"></script>
+    <script src="path/to/jquery.fitvids.js"></script>
+    <script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#youtube_animation").fitVids();
+  });
+</script>
   </body>
 </html>
 
