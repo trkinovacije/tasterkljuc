@@ -34,6 +34,14 @@ body {
   z-index: 10;
 }
 
+.carousel-caption h1 {
+  text-shadow: 1px 1px rgb(248, 250, 201), 4px 4px 0px rgb(22, 110, 143)
+}
+
+.carousel-caption p {
+  text-shadow: 2px 1px rgb(0, 0, 0)
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 450px;
@@ -76,7 +84,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
