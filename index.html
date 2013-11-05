@@ -1,83 +1,8 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="./assets/ico/tasterkljuc.png">
-
-    <title>Taster kljuc</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="./assets/js/html5shiv.js"></script>
-      <script src="./assets/js/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="http://tasterkljuc.rs">Taster ključ &reg;</a>
-            </div>
-
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-   <!-- dropdown 
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
- dropdown  -->
-              </ul>
-<ul class="nav navbar-nav navbar-right">
-<p>
-<!-- AddThis Follow BEGIN -->
-<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
-<a class="addthis_button_facebook_follow" addthis:userid="pages/TRK-Inovacije/262845617190135"></a>
-<a class="addthis_button_twitter_follow" addthis:userid="duleorlovic"></a>
-</div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f62f09f683d02df"></script>
-<!-- AddThis Follow END -->
-</p>
-</ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- Carousel
+---
+title: Taster kljuc
+layout: default
+---
+ <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
@@ -88,17 +13,22 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="images/news/fixedkey_front.png" alt="Fiksirana lozinka">
+          <div class="row">
+            <img class="img-circle" src="/assets/images/news/kanta_scottchan.jpg" width="300" style="position:relative; top:80px; z-index:2; width:250px; height:250px"/>
+            <img class="img-circle" style="position:relative; top:80px; z-index:2; height:250px; width:250px" align="right" src="/assets/images/news/kljucevi_stockimages.jpg" />
+            <img style="width:100%; float:left; position:absolute; top:0px; left:0px; z-index:0" align="float" src="/assets/images/news/city_Witthaya.jpg" />
+          </div>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Predefinisana lozinka.</h1>
-              <p>Volite jednostavnost? Izaberite model gde ne postoji uputstvo za promenu tajne lozinke jer je sve intuitivno. Dip prekidač predstavlja vašu tajnu lozinku.</p>
+            <h1 style="position:relative; margin-left:80px; margin-right:80px;" >Taster Ključ &reg; je interfonski dodatak koji zamenjuje vaš ključ od ulaza
+            </h1>
+              <p>Bacite vaš ključ, rfid karticu i prepustite se magičnom otključavanju vrata pomoću pritiskanja zvona na specifičan način. Brzina otključavanja će vas šokirati!</p>
               <p><a class="btn btn-large btn-primary" href="#">Naručite ga još danas</a></p>
             </div>
-          </div>
-        </div>
+           </div>
+	</div>
         <div class="item">
-          <img src="images/news/gitar_amenic181_fdpn.jpg" alt="Second slide">
+          <img src="/assets/images/news/gitar_amenic181_fdpn.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Glasovni odgovor.</h1>
@@ -108,7 +38,17 @@
           </div>
         </div>
         <div class="item">
-          <img src="images/news/lock_keyboard.jpg" alt="Bezbednost na prvom mestu">
+          <img src="/assets/images/news/fixedkey_front.png" alt="Fiksirana lozinka">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Predefinisana lozinka.</h1>
+              <p>Volite jednostavnost? Izaberite model gde ne postoji uputstvo za promenu tajne lozinke jer je sve intuitivno. Dip prekidač predstavlja vašu tajnu lozinku.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Naručite ga još danas</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/assets/images/news/lock_keyboard.jpg" alt="Bezbednost na prvom mestu">
           <div class="container">
             <div class="carousel-caption">
               <h1>Bezbednost na prvom mestu.</h1>
@@ -122,8 +62,6 @@
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
-
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -133,25 +71,25 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-sm-3">
-          <img  src= "images/animations/fixed_key.gif" alt="Predefinisana lozinka">
+          <img  src= "/assets/images/animations/fixed_key.gif" alt="Predefinisana lozinka">
           <h2>Predefinisana lozinka</h2>
           <p>Namenjen fizičkim licima koji vole jednostavnost.</p>
           <p><a class="btn btn-default" href="#">Detaljnije &raquo;</a></p>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3">
-          <img class="img-circle" src="images/animations/arbitrary_key.gif">
+          <img class="img-circle" src="/assets/images/animations/arbitrary_key.gif">
           <h2>Proizvoljna lozinka</h2>
           <p>Ako želite da se igrate sa lozinkama onda je ovo prava igračka za vas. Snimite proizvoljnu lozinku sa minimum tri zvona i uživajte u svom načinu ulaska u zgradu.</p>
           <p><a class="btn btn-default" href="#">Detaljnije &raquo;</a></p>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3">
-          <img  src="images/animations/clockanimation.gif"  >
+          <img  src="/assets/images/animations/clockanimation.gif"  >
           <h2>Radno vreme</h2>
           <p>Namenjen kompanijama koji imaju veliki promet korisnika, kao što su knjigovodstvene agencije. Postoje dve lozinke, za vreme i van radnog vremena.</p>
           <p><a class="btn btn-default" href="#">Detaljnije &raquo;</a></p>
         </div><!-- /.col-sm-3 -->
          <div class="col-sm-3">
-          <img src="images/animations/speakerphone.gif">
+          <img src="/assets/images/animations/speakerphone.gif">
           <h2>Spikerfon</h2>
           <p>Namenjen stomatološkim ordinacijama ili privatnim korisnicima koji zaista rade nešto bitno, toliko bitno da ne mogu da prekidaju posao zarad javljanja na interfonski poziv. Prepoznavanje ko dolazi obavljaju putem spikerfona.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
@@ -165,7 +103,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Kome ovo koristi?<br /> <span class="text-muted">video animacija</span></h2>
+         <h2 class="featurette-heading">Kome ovo koristi?<br /> <span class="text-muted">video animacija</span></h2>
           <p class="lead">I dok svakodnevno čekamo da nam neko otključa vrata ili tražimo ključ od ulaza, male komšije nemaju tih problema...</p>
         </div>
         <div class="col-md-5 " id="youtube_animation">
@@ -179,7 +117,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive img-rounded" src="images/news/woman_phone_fdpn_Ambro.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive img-rounded" src="/assets/images/news/woman_phone_fdpn_Ambro.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Korak ispred. <br /><span class="text-muted">samo za odabrane.</span></h2>
@@ -196,37 +134,10 @@
           Meni je taj problem rešio Taster ključ  spikerfon, jer se on sam javio sa pitanjem: "Halo, ko je ?", a ja sam putem spikerfona prepoznala da je to samo mali komšija koji je zaboravio ključ. Tada sam mu dvostrukim lupkanjem o sto otključala vrata ne prekidajući svoj posao.</p>
         </div>
         <div class="col-md-4">
-          <img class="featurette-image img-responsive img-rounded" src="images/news/blue_woman_fdpn_marin.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive img-rounded" src="/assets/images/news/blue_woman_fdpn_marin.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right">"Image courtesy of marin & amenic181 & Ambro/ FreeDigitalPhotos.net".<br><a href="#">Back to top</a></p>
-        <p>&copy; 2013 TRK INOVACIJE &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/holder.js"></script>
-    <script src="path/to/jquery.fitvids.js"></script>
-    <script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#youtube_animation").fitVids();
-  });
-</script>
-  </body>
-</html>
-
