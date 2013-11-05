@@ -17,7 +17,8 @@ zaboraviti...
 
 ##Sigurnost?
 
-> Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako.
+> Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako. 
+
 
 
 
