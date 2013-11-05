@@ -3,7 +3,7 @@ title: Kome ovo koristi?
 layout: default
 ---
 
-##Jednostavnost
+_##Jednostavnost?_
 
 > Danas svi vrlo dobro znamo da živimo u izuzetno brzom vremenu. 
 Oko sebe možemo da vidimo ljude koji stalno negde žure. U celoj toj jurnjavi, svima se dogodilo da nam se zagubio ključ,
@@ -11,11 +11,15 @@ zavukao negde duboko u torbu, ili slično. Tada hvatamo sebe u situaciji kako zv
 nema nikog, pretražujemo tašnu - ključa nema, ili nam je pak u ruci, sa pored još 10 ključeva, 
 i treba da ga pronadjemo. **Tasterkljuc** osmišljen je da vam učini zivot jednostavnijim kad su 
 ove stvari u pitanju. Prosto je i lako, osmilite svoj klik, pored vašeg prezimena na interfonu, 
-i udjite za tili čas u vašu zgradu. Naprimer, tri kratka klika, i vrata se otvaraju. Zar nije sjajno?
+i udjite za tili čas u vašu zgradu. Naprimer, tri kratka klika, i vrata se otvaraju. Zar nije sjajno? Zar nije sjano 
+istracati do radnje kada vam zafali nesto, a u stanu niste sami, zasto da pomislite " cek, da ponesem kljuc" ? To če te
+zaboraviti...
 
-##Sigurnost
+_##Sigurnost?_
 
-> 
+> Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako.
+
+
 
 
 
