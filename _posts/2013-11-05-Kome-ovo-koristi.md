@@ -3,7 +3,7 @@ title: Kome ovo koristi?
 layout: default
 ---
 
-_##Jednostavnost?_
+##Jednostavnost?
 
 > Danas svi vrlo dobro znamo da živimo u izuzetno brzom vremenu. 
 Oko sebe možemo da vidimo ljude koji stalno negde žure. U celoj toj jurnjavi, svima se dogodilo da nam se zagubio ključ,
@@ -15,7 +15,7 @@ i udjite za tili čas u vašu zgradu. Naprimer, tri kratka klika, i vrata se otv
 istracati do radnje kada vam zafali nesto, a u stanu niste sami, zasto da pomislite " cek, da ponesem kljuc" ? To če te
 zaboraviti...
 
-_##Sigurnost?_
+##Sigurnost?
 
 > Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako.
 
