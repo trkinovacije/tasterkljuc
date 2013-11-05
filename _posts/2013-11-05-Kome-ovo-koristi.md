@@ -1,6 +1,5 @@
 ---
 title: Kome ovo koristi?
 layout: default
----
 
-j,b,jh
+Danas je lep dan. idem u setnju. 
