@@ -12,8 +12,10 @@ nema nikog, pretražujemo tašnu - ključa nema, ili nam je pak u ruci, sa pored
 i treba da ga pronadjemo. **Tasterkljuc** osmišljen je da vam učini zivot jednostavnijim kad su 
 ove stvari u pitanju. Prosto je i lako, osmilite svoj klik, pored vašeg prezimena na interfonu, 
 i udjite za tili čas u vašu zgradu. Naprimer, tri kratka klika, i vrata se otvaraju. Zar nije sjajno? Zar nije sjano 
-istracati do radnje kada vam zafali nesto, a u stanu niste sami, zasto da pomislite " cek, da ponesem kljuc" ? To če te
-zaboraviti...
+istracati do radnje kada vam zafali nesto, a u stanu niste sami, zasto da pomislite " cek, da ponesem kljuc" ? To će te
+zaboraviti zauvek...
+
+[!assets/images/news/woman_phone_fdpn_Ambro.jpg!]
 
 ##Sigurnost?
 
