@@ -15,7 +15,7 @@ i udjite za tili čas u vašu zgradu. Naprimer, tri kratka klika, i vrata se otv
 istracati do radnje kada vam zafali nesto, a u stanu niste sami, zasto da pomislite " cek, da ponesem kljuc" ? To će te
 zaboraviti zauvek...
 
-[kkk](/assets/images/news/woman_phone_fdpn_Ambro.jpg)
+[kkk](!/assets/images/news/woman_phone_fdpn_Ambro.jpg)
 
 ##Sigurnost?
 
