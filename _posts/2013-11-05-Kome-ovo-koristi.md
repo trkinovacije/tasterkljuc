@@ -29,6 +29,9 @@ dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodoš
 
 > Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako. 
 
+
+
+
 ##Dugovecnost
 
 > Vaš taster ključ napravljen je da radi dugo i bez zastoja. Radi na baterije, koje su male i jeftine, i menjaju se na godisnjem nivou.
