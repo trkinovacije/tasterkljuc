@@ -22,8 +22,12 @@ dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodoš
 će te vi i dalje sedeti i raditi posao koji ste zapoceli. Zar to nije impresivno?
 
 
+<div class="vendor" style="float:right">
+<iframe width="420" height="315" src="http://www.youtube.com/embed/A-4Hlwako5A?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<div style="float: right"><img src="/assets/images/news/woman_phone_fdpn_Ambro.jpg" /></div>
+
+
 
 ##Sigurnost?
 
