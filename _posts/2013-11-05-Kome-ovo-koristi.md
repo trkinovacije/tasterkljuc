@@ -23,7 +23,7 @@ dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodoš
 
 
 
-
+<div style="float: right"><img src="/assets/images/news/woman_phone_fdpn_Ambro.jpg" /></div>
 ![kkk](/assets/images/news/woman_phone_fdpn_Ambro.jpg)
 
 ##Sigurnost?
