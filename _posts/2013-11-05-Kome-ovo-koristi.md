@@ -17,7 +17,7 @@ zaboraviti zauvek...
 
 > Naravno, mislili smo i na poslovnu stranu. Kao što možemo da vidimo, sve više preduzeća otvara se u stanovima. Advokati,stomatolozi,špediteri...
 Klijenti dolaze, svakodnevno, i naravno, poslodavci redovno ustaju sa svog mesta da bi ih pustili na interfon. Zar je to potrebno?
-Sa proizvodom **tasterkljuc - radno vreme ovo postaje zaborav. 
+Sa proizvodom **tasterkljuc - radno vreme** ovo postaje zaborav. 
 
 
 
@@ -30,7 +30,7 @@ Sa proizvodom **tasterkljuc - radno vreme ovo postaje zaborav.
 ##Dugovecnost
 
 > Vaš taster ključ napravljen je da radi dugo i bez zastoja. Radi na baterije, koje su male i jeftine, i menjaju se na godisnjem nivou.
-U danasnje vreme, cena kljuca je 4 puta veca od baterije koju kojirsti tasterključ, ali prednost je u tome, što ga koriste svi stanari 
+U danasnje vreme, cena kljuca je 4 puta veca od baterije koju koristi tasterključ, ali prednost je u tome, što ga koriste svi stanari 
 domaćinstva. .
 
 
