@@ -3,7 +3,7 @@ title: Kome ovo koristi?
 layout: default
 ---
 
-##Jednostavnost?
+##Jednostavnost
 
 > Danas svi vrlo dobro znamo da živimo u izuzetno brzom vremenu. 
 Oko sebe možemo da vidimo ljude koji stalno negde žure. U celoj toj jurnjavi, svima se dogodilo da nam se zagubio ključ,
@@ -25,7 +25,7 @@ dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodoš
 
 <div style="float: right"><img src="/assets/images/news/woman_phone_fdpn_Ambro.jpg" /></div>
 
-##Sigurnost?
+##Sigurnost
 
 > Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako. 
 
