@@ -17,7 +17,10 @@ zaboraviti zauvek...
 
 > Naravno, mislili smo i na poslovnu stranu. Kao što možemo da vidimo, sve više preduzeća otvara se u stanovima. Advokati,stomatolozi,špediteri...
 Klijenti dolaze, svakodnevno, i naravno, poslodavci redovno ustaju sa svog mesta da bi ih pustili na interfon. Zar je to potrebno?
-Sa proizvodom **tasterkljuc - radno vreme** ovo postaje zaborav. 
+Sa proizvodom **tasterkljuc - radno vreme** ovo postaje zaborav. Vaš klijent dolazeći na vaša interfonska vrata, pritiskom na 
+dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodošli u advokatsku kancelariju "x", 3 sprat, stan 12), dok 
+će te vi i dalje sedeti i raditi posao koji ste zapoceli. Zar to nije impresivno?
+
 
 
 
