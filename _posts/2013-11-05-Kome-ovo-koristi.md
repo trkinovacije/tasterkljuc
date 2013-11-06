@@ -3,7 +3,7 @@ title: Kome ovo koristi?
 layout: default
 ---
 
-##Jednostavnost?
+##Jednostavnost
 
 > Danas svi vrlo dobro znamo da živimo u izuzetno brzom vremenu. 
 Oko sebe možemo da vidimo ljude koji stalno negde žure. U celoj toj jurnjavi, svima se dogodilo da nam se zagubio ključ,
@@ -17,8 +17,10 @@ zaboraviti zauvek...
 
 > Naravno, mislili smo i na poslovnu stranu. Kao što možemo da vidimo, sve više preduzeća otvara se u stanovima. Advokati,stomatolozi,špediteri...
 Klijenti dolaze, svakodnevno, i naravno, poslodavci redovno ustaju sa svog mesta da bi ih pustili na interfon. Zar je to potrebno?
-Sa proizvodom **tasterkljuc - radno vreme** ovo postaje zaborav. Vaš klijent dolazeći na vaša interfonska vrata, pritiskom na 
-dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodošli u advokatsku kancelariju "x", 3 sprat, stan 12), dok 
+Sa proizvodom **tasterkljuc - radno vreme** ovo postaje zaborav. 
+Vaš klijent dolazeći na vaša interfonska vrata, pritiskom na 
+dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati
+(npr. Dobrodošli u advokatsku kancelariju "x", 3 sprat, stan 12, izvolite), dok 
 će te vi i dalje sedeti i raditi posao koji ste zapoceli. Zar to nije impresivno?
 
 
@@ -29,7 +31,7 @@ dugme, dobiće vaš snimljen glas, koji će ga ljubazno docekati (npr. Dobrodoš
 
 
 
-##Sigurnost?
+##Sigurnost
 
 > Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Sigurno je i lako. 
 
