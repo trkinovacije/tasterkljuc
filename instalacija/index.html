@@ -5,47 +5,57 @@ layout: default
 
 Način povezivanja zavisi od modela vašeg interfona.
 Pročitajte na interfonu ko je proizvođač i kliknite ispod.
+U okddviru istog proizvođača postoje dvožični i višežični sistemi. Pokušajte da
 <div id="galleryDiv"> </div>
 
-<div id="model" style="display:none">
-U okviru istog proizvođača postoje dvožični i višežični sistemi. Pokušajte da
-pronađete vaš model.
-</div>
+<ul class="list-inline" id="model" style="display:none">
+<img class="model"></img>
+</ul>
 
 <script language="JavaScript" type="text/javascript" src="/assets/js/jquery.js">
 </script>
 <script>
 var imgArray = ["farfisa" , "bitron" , "elvox"];
-var modelsName = ["twowire", "fivewire", "fivewiredigit"];
-var imgArrayCount = [ [[1,1],[0],[0]] , [[1],[0],[0]],[[1],[0],[0]]];
+var modelsName = ["twowire", "fivewire", "fivewiredigit","twowiredigit"];
+var imgArrayCount = [ [[1,1],[0],[0],[]] , [[1],[0],[0],[]],[[1],[0],[0],[]]];
 var galleryString = "";
 
 for (var i = 0; i < imgArray.length; i++) {
 galleryString += "<img src=\"/assets/images/interphone/" + imgArray[i] +
-  "/" + imgArray[i] + ".jpg\" class=\"brand\" id=\""+imgArray[i]+"-"+i+"\" />";
+  "/" + imgArray[i] + ".jpg\" class=\"brand\" id=\""+imgArray[i]+"-"+i+"\"" +
+  "alt=\""+imgArray[i]+"\" />";
 }
 
 document.getElementById("galleryDiv").innerHTML = galleryString;
 
 $(function(){
   $(".brand").click(function(){
-    $("#model").fadeOut();
-    $("#model").empty();
     var brand = $(this).attr('id').match(/(\w+)/)[0];
     var n = $(this).attr('id').match(/(\d+)/)[0];
+    $("#model").fadeOut("slow", function(){
+    $("#model").empty();
+    
     for (var i = 0; i < modelsName.length; i++) {
-      // specific model ex farfisa two wire
+      // specific model: twowire, fivewire, ...
       for (var j = 0; j < imgArrayCount[n][i].length; j++) {
           if (imgArrayCount[n][i][j] > 0) {
 //        for (var k = 0; k < imgArrayCount[n][i][j]; k++) {
-            $("#model").append("<img src=\"/assets/images/interphone/"+brand+
-	"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\"</img>");
+            $("#model").append("<li><img src=\"/assets/images/interphone/"+
+           brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+
+           ".jpg\" class=\"model\"</img></li>");
 //        }
           }
       }
     }
-    $("#model").fadeIn();
+    $("#model").fadeIn("slow");
+
+    $(".model").click(function(){
+      alert("a");
+    });
+    });
   });
+//});
+//$(function(){
 });
 
 </script>
