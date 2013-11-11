@@ -1,10 +1,31 @@
 ---
-title: Kontakt
+title: Vesti
 layout: default
 ---
 
+{{ site.tags }}
+
+AKCIJE
 <ul>
-  {% for post in site.posts limit: 10 %}
+  {% for post in site.tags.akcije limit: 5 %}
+    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+   <!--  <p>{{ post.excerpt }}</p> -->
+  </li>
+  {% endfor %}
+</ul>
+
+INFORMACIJE:
+<ul>
+  {% for post in site.tags.informacije limit: 5 %}
+    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+   <!--  <p>{{ post.excerpt }}</p> -->
+  </li>
+  {% endfor %}
+</ul>
+
+SAVETI:
+<ul>
+  {% for post in site.tags.saveti limit: 5 %}
     <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
    <!--  <p>{{ post.excerpt }}</p> -->
   </li>

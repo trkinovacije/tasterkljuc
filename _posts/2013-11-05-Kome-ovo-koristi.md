@@ -1,6 +1,6 @@
 ---
 title: Kome ovo koristi?
-layout: default
+layout: post
 ---
 
 ##Jednostavnost

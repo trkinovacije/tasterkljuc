@@ -1,6 +1,7 @@
 ---
 title: Saveti za izbor modela taster ključa ?
-layout: default
+layout: post
+tags: informacije
 ---
 
 
