@@ -64,7 +64,7 @@ $(function(){
        $("#connectionsImage").fadeIn();
      }
      $.get($(this).attr("src")+".txt",function(data,status){
-      // alert("Data: " + data + "\nStatus: " + status);
+       alert("Data: " + data + "\nStatus: " + status);
        $("#connections").append("<h3>"+data+"</h3>");
      });
     });
