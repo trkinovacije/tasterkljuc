@@ -20,6 +20,12 @@
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/carousel.css" rel="stylesheet">
+    {% if page && page.css %}
+      <link rel='stylesheet' type='text/css' href="/assets/css/{{ page.css }}.css"/>
+    {% endif %}
+   <!-- <link href="/assets/css/carousel.css" rel="stylesheet">
+    -->
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -95,8 +101,10 @@
     <script src="/assets/js/jquery.js"></script>
     <script src="/dist/js/bootstrap.min.js"></script>
     <script src="/assets/js/holder.js"></script>
-    <script src="/assets/js/jquery.fitvids.js"></script>
+   {% if page && page.js %}
+    <script src="/assets/js/{{ page.js }}.js"></script>
 
+   {% endif %} 
 <!--
 GOOGLE ANALITICS 
 -->
