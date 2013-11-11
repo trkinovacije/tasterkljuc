@@ -7,7 +7,7 @@
     <meta name="author" content="{{ site.author }}">
     <link rel="shortcut icon" href="/assets/ico/tasterkljuc.png">
 
-    <title>{{ site.name }}</title>
+    <title>{{ site.long_name }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap.css" rel="stylesheet">
@@ -23,8 +23,8 @@
     {% if page && page.css %}
       <link rel='stylesheet' type='text/css' href="/assets/css/{{ page.css }}.css"/>
     {% endif %}
-   <!-- <link href="/assets/css/carousel.css" rel="stylesheet">
-    -->
+   <!--  <link href="/assets/css/carousel.css" rel="stylesheet">
+   -->
 
   </head>
 <!-- NAVBAR
@@ -61,17 +61,6 @@
                 <li><a href="/vesti">Vesti</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
               </ul>
-<ul class="nav navbar-nav navbar-right">
-<p>
-<!-- AddThis Follow BEGIN -->
-<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
-<a class="addthis_button_facebook_follow" addthis:userid="pages/TRK-Inovacije/262845617190135"></a>
-<a class="addthis_button_twitter_follow" addthis:userid="trkinovacije"></a>
-</div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f62f09f683d02df"></script>
-<!-- AddThis Follow END -->
-</p>
-</ul>
             </div>
           </div>
         </div>
@@ -102,7 +91,7 @@
     <script src="/assets/js/jquery.js"></script>
     <script src="/dist/js/bootstrap.min.js"></script>
     <script src="/assets/js/holder.js"></script>
-   {% if page && page.js %}
+   {% if page and page.js %}
     <script src="/assets/js/{{ page.js }}.js"></script>
 
    {% endif %} 
