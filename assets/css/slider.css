@@ -18,10 +18,7 @@ h2 span {
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
 }
-li {
-  padding:0;
-}
-li:hover {
+ul.horizontal-slide li:hover {
     border: 1px solid rgb(66, 139, 202);
 }
 .row {
