@@ -18,8 +18,27 @@ h2 span {
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
 }
-
+li {
+  padding:0;
+}
 li:hover {
     border: 1px solid rgb(66, 139, 202);
 }
+.row {
+  width:500%;
+}
+ul.horizontal-slide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.model {
+  height:250px;
+}
 
+ul.horizontal-slide li[class*="model"] {
+    display: inline-block;
+    float: none;
+}

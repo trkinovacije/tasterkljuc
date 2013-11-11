@@ -7,9 +7,9 @@ css: slider
 Način povezivanja zavisi od modela vašeg interfona.
 Pročitajte na interfonu ko je proizvođač i kliknite ispod.
 U okddviru istog proizvođača postoje dvožični i višežični sistemi. Pokušajte da
-<ul class="list-inline" id="brands"> </ul>
+<ul class="horizontal-slide list-inline" id="brands"> </ul>
 
-<ul class="list-inline" id="models" style="display:none">
+<ul class="horizontal-slide list-inline" id="models">
 </ul>
 <div id="model_pictures"></div>
 
@@ -22,7 +22,9 @@ U okddviru istog proizvođača postoje dvožični i višežični sistemi. Pokuš
 <script>
 var imgArray = ["farfisa","tehtel","urmet","videx","bitron","elvox"];
 var modelsName = ["twowire", "fivewire", "fivewiredigit","twowiredigit"];
-var imgArrayCount = [[[1],[2],[0],[0],],[[0],[1],[0],[0],],[[0],[1],[0],[0],],[[1],[0],[0],[0],],[[4],[0],[0],[0],],[[1],[1],[0],[0],],];
+var imgArrayCount =
+[[[1],[2],[0],[0],],[[0],[1],[0],[0],],[[0],[1],[0],[0],],[[1],[0],[0],[0],],[[3],[0],[0],[0],],[[1],[1],[0],[0],],]
+
 
 for (var i = 0; i < imgArray.length; i++) {
   $("#brands").append("<li><div class=\"image brand\" id=\""+imgArray[i]+"-"+i+"\"><img src=\"/assets/images/interphone/" + imgArray[i] + "/" + imgArray[i] + ".jpg\" alt=\""+imgArray[i]+"\" ><h2><span>"+imgArray[i]+"</span></h2></div></li>");
@@ -38,14 +40,14 @@ $(function(){
     
     for (var i = 0; i < modelsName.length; i++) {
       // specific model: twowire, fivewire, ...
-      for (var j = 0; j < imgArrayCount[n][i].length; j++) {
-          if (imgArrayCount[n][i][j] > 0) {
+      for (var j = 0; j < imgArrayCount[n][i]; j++) {
+          //if (imgArrayCount[n][i][j] > 0) {
 //            for (var k = 0; k < imgArrayCount[n][i][j]; k++) {
  //              $("#specific_model").append("<div class=\"simple_overlay\" id=\"mies1\'> <img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" ></div>");
 //    $("img[rel]").overlay();
  
-            $("#models").append("<li><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" class=\"model\"><br><small>jos fotografija</li>");
-         }
+            $("#models").append("<li><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" class=\"model\"></li>");
+    //     }
       }
     }
     $("#models").fadeIn();
