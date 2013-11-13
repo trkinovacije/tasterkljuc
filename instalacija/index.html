@@ -13,17 +13,33 @@ U okddviru istog proizvođača postoje dvožični i višežični sistemi. Pokuš
 </ul>
 <div id="model_pictures"></div>
 
-<div id="connections"></div>
-<img id="connectionsImage">
+<div class="row">
+ <div class="col-md-4">
+  <img id="connectionsImage">
+  <a>jos slika</a>
+ </div>
+ <div class="col-md-8">
+   <table class="table table-striped">
+     <thead> <tr>
+       <th> pin </th>
+       <th> broj </th>
+      </tr> </thead>
+     <tbody id="connections">
+        
+     </tbody>
+    </table>
+  <ul class="horizontal-slide list-inline" id="morephotos"></ul>
+ </div>
+</div>
 
 <script language="JavaScript" type="text/javascript" src="/assets/js/jquery.js">
 </script>
 
 <script>
 var imgArray = ["farfisa","tehtel","urmet","videx","bitron","elvox"];
-var modelsName = ["twowire", "fivewire", "fivewiredigit","twowiredigit"];
+var modelsName = ["twowire", "fivewire", "fivewiredigit","unsupported"];
 var imgArrayCount =
-[[[1],[2],[0],[0],],[[0],[1],[0],[0],],[[0],[1],[0],[0],],[[1],[0],[0],[0],],[[3],[0],[0],[0],],[[2],[2],[0],[0],],];
+[[[[1],],[[2],[1],],[],[],],[[],[[2],],[],[],],[[],[[2],],[],[],],[[[3],],[],[],[],],[[[1],[2],[3],],[],[],[],],[[[1],[4],],[[2],[5],],[],[],],];
 
 
 
@@ -40,15 +56,13 @@ $(function(){
     $("#models").empty();
     
     for (var i = 0; i < modelsName.length; i++) {
-      // specific model: twowire, fivewire, ...
-      for (var j = 0; j < imgArrayCount[n][i]; j++) {
-          //if (imgArrayCount[n][i][j] > 0) {
+      // specific type: twowire, fivewire, ...
+      for (var j = 0; j < imgArrayCount[n][i].length; j++) {
+          if (imgArrayCount[n][i][j] > 0) {
 //            for (var k = 0; k < imgArrayCount[n][i][j]; k++) {
- //              $("#specific_model").append("<div class=\"simple_overlay\" id=\"mies1\'> <img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" ></div>");
-//    $("img[rel]").overlay();
  
-            $("#models").append("<li><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" class=\"model\"></li>");
-    //     }
+            $("#models").append("<li><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" class=\"model\" alt=\"" + imgArrayCount[n][i][j] + "\"></li>");
+         }
       }
     }
     $("#models").fadeIn();
@@ -66,12 +80,18 @@ $(function(){
        $("#connectionsImage").attr("src",url); 
        $("#connectionsImage").fadeIn();
      }
-     $.get($(this).attr("src")+".txt",function(data,status){
+     $.get($(this).attr("src")+".connections",function(data,status){
        alert("Data: " + data + "\nStatus: " + status);
-       $("#connections").append("<h3>"+data+"</h3>");
+       var lines = data.split("\n");
+       for( i=0; i< lines.length; i++){
+         $("#connections").append("<tr><td>"+lines[i]+"</td></tr>");
+       }
      });
     });
     });
+  });
+  $("#morephotos").click(function(){
+     alert($(this).attr("alt"));
   });
 //});
 //$(function(){
