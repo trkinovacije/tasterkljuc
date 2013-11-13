@@ -1,28 +1,51 @@
 #!/usr/bin/env ruby
 
-brands = [];
-counter = {};
+brands = ["farfisa","tehtel","urmet","videx","bitron","elvox"]
+types = ["twowire", "fivewire", "fivewiredigit","unsupported"]
 print "["
-Dir.foreach('.') do |brand| 
+for brand in brands 
   next if brand == '.' or brand == '..' or not Dir.exists?(brand) #it is a file
-  brands += [brand]; 
   print "["
-  for type in ["twowire", "fivewire", "fivewiredigit","twowiredigit"]
-    countermodel = 0
+  for type in types 
     if Dir.exist?(brand+"/"+type)
-      Dir.foreach(brand+"/"+type) do |model|
+      checkModelCounter = "0"
+      folders = Dir.entries(brand+"/"+type).sort
+      print "["
+      for model in folders
         next if model == '.' or model == '..'
-        file = brand+"/"+type+"/"+model+"/"+brand+"_"+type+"_"+model+".jpg"
-        puts file if not File.exists? ( file)
-        countermodel+=1 
+        if model == checkModelCounter
+          checkModelCounter.succ!
+        else
+          print "check model counter "+brand+"/"+type+"/"+model
+        end
+        mainImage = brand+"_"+type+"_"+model+".jpg"
+        mainImagePath = brand+"/"+type+"/"+model+"/"+mainImage
+        puts mainImagePath if not File.exists? ( mainImagePath)
+        puts mainImagePath+".wires" if not File.exists? ( mainImagePath+".wires")
+        puts mainImagePath+".connections" if not File.exists? ( mainImagePath+".connections")
+        files = Dir.entries(brand+"/"+type+"/"+model).sort
+        checkImageCounter = "0"
+        counterImage = 1
+        for image in files
+          next if image == '.' or image == '..'
+          next if [mainImage, mainImage+".wires",mainImage+".connections"].include? image
+          if image == [brand,type,model,checkImageCounter].join("_")+".jpg"
+            checkImageCounter.succ!
+          else
+           puts "check image counter "+brand+"/"+type+"/"+model+"/"+image
+          end
+          counterImage += 1
+        end
+        print "[",counterImage,"],"
       end
+      print "],"
     else
-      
+     print "[],"
     end
-    print "[",countermodel,"],"
   end
   print "],"
 end
-print "]"
+print "];"
 puts 
 puts brands.join('","')
+puts types.join('","')

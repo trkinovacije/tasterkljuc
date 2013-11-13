@@ -32,7 +32,7 @@ ul.horizontal-slide {
     overflow-x: auto;
 }
 .model {
-  height:250px;
+  height:300px;
 }
 
 ul.horizontal-slide li[class*="model"] {
