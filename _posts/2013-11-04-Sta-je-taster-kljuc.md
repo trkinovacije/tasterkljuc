@@ -9,7 +9,13 @@ tags: informacije
 <img src="/assets/images/news/kljucevi_stockimages.jpg"  />
 <p>
 <img src="/assets/images/news/kanta_scottchan.jpg" width="300"    style="display:block"/>
-</p></div>
+</p>
+<small>
+Image courtesy of
+<br> scottchan/FreeDigitalPhotos.net
+<br> stockimages/FreeDigitalPhotos.net
+</small>
+</div>
 
 Taster Kljuc &reg; je interfonski dodatak koji zamenjuje vaš ključ od ulaza.
  
