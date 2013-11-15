@@ -2,8 +2,8 @@
 title: Radno vreme-tasterključ
 layout: default
 ---
-
-Radno vreme - taster kljuc je jedinstveni uređaj na tržištu isključivo namenjen poslovnim korisnicima kojima se poslovne jedinice nalaze 
+<img src="/assets/images/animations/clockanimation.gif" style="float:left" />
+<p class="lead" align="justify"><strong>Radno vreme - taster kljuc</strong> je jedinstveni uređaj na tržištu isključivo namenjen poslovnim korisnicima kojima se poslovne jedinice nalaze 
 u zgradama tačnije u stanu. Pravouganog je oblika, smesten u kutiju, koja se fiksira ispod interfonske slušalice u stanu.
 Koristi 4 alkalne baterije koje menjaju jedanput godišnje.
 Namenjen je za kompanije koje imaju čest promet klijenata kao što su advokatske kancelarije, stomatološke ordinacicije, 
@@ -20,16 +20,21 @@ nakon radnog vremena može ulaziti u svoju zgradu šifrom koju je podesio.
 
 
 
-Garancija : 12 meseci 
+<table class="table table-striped table-bordered">
+  <tr>
+   <td>Garancija</td>
+   <td> 24 meseci</td>
+  </tr>
+  <tr>
+    <td> Promena baterije u garantnom roku</td>
+    <td> BESPLATNO </td>
+  </tr>
+  <tr>
+     <td>Uputstvo za upotrebu</td>
+     <td><a href="/assets/pdf/Uputstvo_za_koriscenje_minikljuc_1.0.pdf">todo</a></td>
+  </tr>
 
-
-
-Prvo menjane baterije BESPLATNO.
-
-
-
-Upustvo za korišćenje 
-
+</table>
 
 
 Budite INOVATIVNI. IZNENADITE VAŠE KLIJENTE. NARUČITE GA VEĆ DANAS..

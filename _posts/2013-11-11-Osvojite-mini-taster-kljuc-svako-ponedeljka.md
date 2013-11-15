@@ -4,4 +4,5 @@ layout: post
 tags: akcije
 ---
 
-Svakih nedelju dana dajemo jedan taster kljuc ko komentarise ili like-uje nasu facebook stranicu
+Svakih nedelju dana dajemo jedan taster kljuc ko komentarise ili like-uje nasu facebook stranicu.
+
