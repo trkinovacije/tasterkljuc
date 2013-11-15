@@ -34,7 +34,9 @@ ul.horizontal-slide {
 .model {
   height:300px;
 }
-
+.wires {
+  height:300px;
+}
 ul.horizontal-slide li[class*="model"] {
     display: inline-block;
     float: none;
