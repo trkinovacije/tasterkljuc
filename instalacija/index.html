@@ -4,32 +4,35 @@ layout: default
 css: slider
 ---
 
-Način povezivanja zavisi od modela vašeg interfona.
-Postoje tri vrste sistema: dvožični, petožični, petožičnidigitalni i nepodržavani siste. Može se desiti da u okviru istog proizvođača tj. istog izgleda slušalice postoje dvožični i petožični sistemi. Dvožični se lako prepoznaje tako što se prilikom pritiska tastera za otključavanje prekida zvuk u slušalici, dok se kod petožičnih može pričati tokom otključavanja brave.
+Način povezivanja zavisi od modela vašeg interfona. Postoje tri vrste sistema koje podržava TASTER KLJUC &reg; : <span class="twowire"> dvožični</span>,<span class="fivewire"> petožični</span>,<span class="fivewiredigit"> petožičnidigitalni</span> i <span class="unsupported">nepodržavani</span> sistem. Može se desiti da u okviru istog proizvođača tj. istog izgleda slušalice postoje dvožični i petožični sistemi. Dvožični se lako prepoznaje tako što se prilikom pritiska tastera za otključavanje prekida zvuk u slušalici, dok se kod petožičnih može pričati tokom otključavanja brave.
 
-<ul class="horizontal-slide list-inline" id="brands"> </ul>
+<ul class="horizontal-slide list-inline selectable" id="brands"> </ul>
 
-<ul class="horizontal-slide list-inline" id="models">
+<ul class="horizontal-slide list-inline selectable" id="models">
+<div align="center">
 <span class="glyphicon glyphicon-arrow-up"></span>IZABERITE PROIZVOĐAČA VAŠEG INTERFONA <span class="glyphicon glyphicon-arrow-up"></span>
 <br>
 Pročitajte na interfonu ko je proizvođač i kliknite iznad.
 </ul>
+</div>
 
 <ul class="horizontal-slide list-inline" id="connections" style="display:none">
-  <li>
-    <img id="connectionsImage" >
-  </li>
-  <li>
-   <table class="table table-striped">
+  <li style="vertical-align:top;">
+   <table class="table table-striped lead"  >
      <thead> <tr>
-       <th> pin </th>
-       <th> broj </th>
+       <th> BROJ </th>
+       <th> BOJA </th>
       </tr> </thead>
      <tbody id="connectionsPins">
      </tbody>
     </table>
-  <a id="morephotos">jos slika</a>
     </li>
+  <li >
+    <img id="connectionsImage" >
+  </li>
+  <li>
+    <a class="morephotos">jos slika</a>
+  </li>
 </ul>
 
 <script language="JavaScript" type="text/javascript" src="/assets/js/jquery.js">
@@ -38,6 +41,7 @@ Pročitajte na interfonu ko je proizvođač i kliknite iznad.
 <script>
 var imgArray = ["farfisa","tehtel","urmet","videx","bitron","elvox"];
 var modelsName = ["twowire", "fivewire", "fivewiredigit","unsupported"];
+var modelNaziv = ["dvožični", "petožični", "potižični digitalni","nepodržan"];
 var imgArrayCount =
 [[[[1],],[[2],[1],],[],[],],[[],[[2],],[],[],],[[],[[2],],[],[],],[[[3],],[],[],[],],[[[1],[2],[3],],[],[],[],],[[[1],[4],],[[2],[5],],[],[],],];
 
@@ -59,19 +63,23 @@ $(function(){
         // specific type: twowire, fivewire, ...
         for (var j = 0; j < imgArrayCount[n][i].length; j++) {
             if (imgArrayCount[n][i][j] > 0) {
-  //            for (var k = 0; k < imgArrayCount[n][i][j]; k++) {
-   
-              $("#models").append("<li><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" class=\"model\" alt=\"" + imgArrayCount[n][i][j] + "\"></li>");
-           }
+               $("#models").append("<li><div class=\"image model\" ><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" alt=\"" + imgArrayCount[n][i][j] + "\"><h2><span class=\""+modelsName[i]+"\">"+modelNaziv[i]+"</span></h2></div></li>");
+	   }
         }
       }
       $("#models").fadeIn();
   
       $(".model").click(function(){
         //alert($(this).attr("src"));
-       var url = $(this).attr("src");
-       var numberOfPhotos = $(this).attr("alt");
+       var url = $(this).find(">img").attr("src");
+       var numberOfPhotos = $(this).find(">img").attr("alt");
        $("#connections").fadeOut(400,function() {
+	       // remove eventual additional images
+         $("#connections>li:gt(1)").each(function() {
+    	     $(this).remove();
+         });
+	 if (numberOfPhotos > 1)
+            $("#connections").append("<li><a class=\"morephotos\">jos slika</a></li>");
          $("#connectionsImage").attr("src", url+".wires");
          $("#connectionsImage").attr("alt", numberOfPhotos);
          $("#connections").fadeIn();
@@ -89,14 +97,14 @@ $(function(){
     }); // $("#models").fadeOut(400, function(){
   }); // $(".brand").click(function(){
 
-  $("#morephotos").click(function(){
-     //alert($("#connectionsImage").attr("alt"));
-     var url =$("#connectionsImage").attr("src").slice(0,-10);
-     for (var i = 0; i< $("#connectionsImage").attr("alt");i++)
-     {
-       alert("<li><img src=\""+url+"_"+i+".jpg></li>");
-       $("#connections").append("<li><img src=\""+url+"_"+i+".jpg\"></li>");
-     }
+  $("#connections").on('click','a.morephotos', function(){
+     $("#connections>li:eq(2)").remove();
+       var url =$("#connectionsImage").attr("src").slice(0,-10);//10 is .jpg.wires
+       for (var i = 0; i< $("#connectionsImage").attr("alt")-1;i++)
+       {
+     //    alert("<li><img src=\""+url+"_"+i+".jpg></li>");
+         $("#connections").append("<li><img src=\""+url+"_"+i+".jpg\"></li>");
+       }
   });
 //});
 //$(function(){

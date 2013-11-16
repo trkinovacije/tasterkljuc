@@ -5,7 +5,9 @@ layout: default
 {{ page.date | date: "%d/%m/%y" }}
 <strong>{{ page.title }}</strong>
 
+<div align="justify">
 {{ content }}
+</div>
 
 <hr class="divider">
 {% for tag in page.tags %}

@@ -18,7 +18,7 @@ Nema razloga za brigu da vam neko može pogoditi lozinku. Razlozi za to su:
 <tr class="danger"><td rowspan="2">
 1
 </td><td>
-**svaki pokušaj zvona se čuje kod vas u stanu**
+**Svaki pokušaj zvona se čuje kod vas u stanu**
 </td></tr>
 <tr><td>
  ovo je suštinska razlika od sistema sa brojevnom tastaturom gde se otključavaju vrata pritiskom određene kombinacije brojeva na pozivnom tabli (obično je to broj od četiri cifre). Kada neko sazna taj broj onda može neometano ulaziti dokle god se ne promeni tajni broj 
@@ -26,7 +26,7 @@ Nema razloga za brigu da vam neko može pogoditi lozinku. Razlozi za to su:
 <tr class="warning"><td rowspan="2">
 2
 </td><td>
-**lako se menja lozinka**
+**Lako se menja lozinka**
 </td></tr>
 <tr><td>
 potrebno je samo da otvorite poklopac taster ključa i snimite novu lozinku. Kod sistema sa brojevnom tastaturom se u praksi gotovo nikad ne menja tajni broj iz tog razloga što je on zajednički za ceo ulaz, pa promena mora da se javlja svim stanarima, podstanarima, prijateljima, rođacima itd.
@@ -34,7 +34,7 @@ potrebno je samo da otvorite poklopac taster ključa i snimite novu lozinku. Kod
 <tr class="success"><td rowspan="2">
 3
 </td><td>
-**pritiskanje se teško uočava**
+**Pritiskanje se teško uočava**
 </td></td>
 <tr><td>
 za razliku od brojevne tastature gde je očigledno da ta tastatura služi za otključavanje vrata, kod TASTER KLJUCA to nije slučaj. Niko ne može da zna da li vam je uređaj ili neko iz stana otključao vrata. Pošto nema nikakve promene na pozivnoj tabli, a i zbog toga što ovaj uređaj inovativan i nepoznat na tržištu, drugim ljudima ne pada na pamet da je "vremenski kodirano zvono" otključalo vrata 

@@ -18,8 +18,11 @@ h2 span {
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
 }
-ul.horizontal-slide li:hover {
+ul.horizontal-slide.selectable li:hover {
     border: 1px solid rgb(66, 139, 202);
+}
+ul.horizontal-slide li {
+    border: 1px solid white ;
 }
 .row {
   width:500%;
@@ -31,13 +34,28 @@ ul.horizontal-slide {
     white-space: nowrap;
     overflow-x: auto;
 }
-.model {
-  height:300px;
-}
-.wires {
+.model img {
   height:300px;
 }
 ul.horizontal-slide li[class*="model"] {
     display: inline-block;
     float: none;
+}
+
+span.twowire {
+  color:green;
+}
+span.fivewire {
+  color:blue;
+}
+span.fivewiredigit {
+  color:red;
+}
+span.unsupported {
+  color:yellow;
+}
+
+#connections img {
+
+  height:400px;
 }
