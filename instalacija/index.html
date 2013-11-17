@@ -28,7 +28,7 @@ Pročitajte na interfonu ko je proizvođač i kliknite iznad.
     </table>
     </li>
   <li >
-    <img id="connectionsImage" >
+    <img id="connectionsImage" onload="loadedImage()" >
   </li>
   <li>
     <a class="morephotos">jos slika</a>
@@ -82,15 +82,8 @@ $(function(){
             $("#connections").append("<li><a class=\"morephotos\">jos slika</a></li>");
          $("#connectionsImage").attr("src", url+".wires");
          $("#connectionsImage").attr("alt", numberOfPhotos);
-         $("#connections").fadeIn();
-         $.get(url+".connections",function(data,status){
-          $("#connectionsPins").empty();
-          // alert("Data: " + data + "\nStatus: " + status);
-           var lines = data.split("\n");
-           for( i=0; i< lines.length; i++){
-		   $("#connectionsPins").append("<tr><td>"+lines[i].split(" ")[0]+"</td><td>"+lines[i].split(" ")[1]+"</tr>");
-           }
-         });
+         // wait for image to be loaded and call loadedImage()
+
        });
        
       });
@@ -106,8 +99,17 @@ $(function(){
          $("#connections").append("<li><img src=\""+url+"_"+i+".jpg\"></li>");
        }
   });
-//});
-//$(function(){
-});
-
+}); //$(function(){
+function loadedImage()
+{
+  $("#connections").fadeIn();
+  $.get($("#connectionsImage").attr("src").slice(0,-10)+".jpg.connections",function(data,status){
+   $("#connectionsPins").empty();
+   // alert("Data: " + data + "\nStatus: " + status);
+    var lines = data.split("\n");
+    for( i=0; i< lines.length; i++){
+ 	   $("#connectionsPins").append("<tr><td>"+lines[i].split(" ")[0]+"</td><td>"+lines[i].split(" ")[1]+"</tr>");
+    }
+  });
+}
 </script>
