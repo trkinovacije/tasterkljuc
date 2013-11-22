@@ -31,7 +31,7 @@ nakon radnog vremena može ulaziti u svoju zgradu šifrom koju je podesio.
   </tr>
   <tr>
      <td>Uputstvo za upotrebu</td>
-     <td><a href="/assets/pdf/Uputstvo_za_koriscenje_minikljuc_1.0.pdf">todo</a></td>
+     <td><a href="/assets/pdf/Uputstvo_za_koriscenje_radno_vreme_voice.pdf">Uputstvo_za_koriscenje_radno_vreme_voice.pdf </a></td>
   </tr>
 
 </table>
