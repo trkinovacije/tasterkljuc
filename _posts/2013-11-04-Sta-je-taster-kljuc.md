@@ -17,7 +17,7 @@ Image courtesy of
 </small>
 </div>
 
-Taster Kljuc &reg; je interfonski dodatak koji zamenjuje vaš ključ od ulaza.
+Taster Kljuc &trade; je interfonski dodatak koji zamenjuje vaš ključ od ulaza.
  
 Bacite vaš ključ, RFID karticu i prepustite se magičnom otključavanju interfonskih vrata pomoću pritiskanja zvona na specifičan način. Podesite vašu tajnu lozinku da bude: dugo kratko kratko i svaki put kada dolazite kući i na taj način zvonite (BIIIP BIP BIP) vrata će vam se automatski otključavati :) .
 
