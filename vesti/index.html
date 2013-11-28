@@ -21,3 +21,12 @@ layout: default
   </li>
   {% endfor %}
 </ul>
+
+<h2>REFERENCE:</h2>
+<ul>
+  {% for post in site.tags.reference limit: 5 %}
+    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+   <!--  <p>{{ post.excerpt }}</p> -->
+  </li>
+  {% endfor %}
+</ul>
