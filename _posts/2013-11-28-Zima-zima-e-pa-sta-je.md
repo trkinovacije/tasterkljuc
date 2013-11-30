@@ -1,7 +1,8 @@
 ---
 title: Zima zima e pa šta je
 layout: post
-tags: reference
+category: reference
+tags: mini-kljuc 
 ---
 
 <div style="float:right">

@@ -2,7 +2,7 @@
 title: Radno vreme-tasterključ
 layout: default
 ---
-<img src="/assets/images/animations/clockanimation.gif" style="float:left" />
+<img src="/assets/images/animations/radno-vreme.gif" style="float:left" />
 <p class="lead" align="justify"><strong>Radno vreme - taster kljuc</strong> je jedinstveni uređaj na tržištu isključivo namenjen poslovnim korisnicima kojima se poslovne jedinice nalaze 
 u zgradama tačnije u stanu. Pravouganog je oblika, smesten u kutiju, koja se fiksira ispod interfonske slušalice u stanu.
 Koristi 4 alkalne baterije koje menjaju jedanput godišnje.

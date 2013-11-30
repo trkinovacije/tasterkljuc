@@ -1,5 +1,6 @@
 ---
 layout: default
+css: post
 ---
 
 {{ page.date | date: "%d/%m/%y" }}
@@ -10,10 +11,10 @@ layout: default
 </div>
 
 <hr class="divider">
-{% for tag in page.tags %}
-  <strong id="{{ tag }}-ref">Slične {{ tag }}</strong>
+{% for cat in page.categories %}
+<strong id="{{ cat }}-ref">Slične <a href="/vesti/{{ cat }}">{{cat}}</a>:</strong>
   {% for post in site.posts reversed %}
-    {% if post.tags contains tag and post.id != page.id %}
+    {% if post.categories contains cat and post.id != page.id %}
       <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}
 

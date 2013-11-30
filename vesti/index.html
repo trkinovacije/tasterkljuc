@@ -3,29 +3,40 @@ title: Vesti
 layout: default
 ---
 
-
-<h2>INFORMACIJE:</h2>
-<ul>
-  {% for post in site.tags.informacije limit: 5 %}
-    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+<a href="/vesti/informacije/"><h2>INFORMACIJE:</h2></a>
+<ul class="list-unstyled">
+  {% for post in site.categories.informacije limit: 5 %}
+  <li>
+  {% for tag in post.tags %}
+    <img src="/assets/images/animations/{{tag}}.gif">
+      {% endfor %}
+      {{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
    <!--  <p>{{ post.excerpt }}</p> -->
   </li>
   {% endfor %}
 </ul>
 
-<h2>AKCIJE:</h2>
-<ul>
-  {% for post in site.tags.akcije limit: 5 %}
-    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+<a href="/vesti/akcije/"><h2>AKCIJE</h2></a>
+<ul class="list-unstyled">
+  {% for post in site.categories.akcije limit: 5 %}
+    <li>
+  {% for tag in post.tags %}
+    <img src="/assets/images/animations/{{tag}}.gif">
+      {% endfor %}
+    {{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
    <!--  <p>{{ post.excerpt }}</p> -->
   </li>
   {% endfor %}
 </ul>
 
-<h2>REFERENCE:</h2>
-<ul>
-  {% for post in site.tags.reference limit: 5 %}
-    <li>{{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+<a href="/vesti/reference/"><h2>REFERENCE</h2></a>
+<ul class="list-unstyled">
+  {% for post in site.categories.reference limit: 5 %}
+    <li>
+  {% for tag in post.tags %}
+    <img src="/assets/images/animations/{{tag}}.gif">
+      {% endfor %}
+    {{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
    <!--  <p>{{ post.excerpt }}</p> -->
   </li>
   {% endfor %}

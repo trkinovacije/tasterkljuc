@@ -1,7 +1,8 @@
 ---
 title: Saveti za izbor lozinke taster ključa
 layout: post
-tags: informacije
+category: informacije
+tags: mini-kljuc 
 ---
 
 Desilo se da vam je komšija slučajno ili namerno pogodio šifru?
@@ -13,7 +14,7 @@ Vreme je da promenite vašu lozinku. Jednostavno, izaberite dužu lozinku. Najbo
 
 U slučaju da se desi da neko sumljiv uporno stoji pored vas kada treba da uđete, savet je da ubacite proizvoljno pritiskanje pre vašeg tajnog ključa.
 
-Nema razloga za brigu da vam neko može pogoditi lozinku. Razlozi za to su:
+*Nema razloga za brigu* da vam neko može pogoditi lozinku. Razlozi za to su:
 <table class="table table-striped">
 <tr class="danger"><td rowspan="2">
 1
@@ -21,7 +22,7 @@ Nema razloga za brigu da vam neko može pogoditi lozinku. Razlozi za to su:
 **Svaki pokušaj zvona se čuje kod vas u stanu**
 </td></tr>
 <tr><td>
- ovo je suštinska razlika od sistema sa brojevnom tastaturom gde se otključavaju vrata pritiskom određene kombinacije brojeva na pozivnom tabli (obično je to broj od četiri cifre). Kada neko sazna taj broj onda može neometano ulaziti dokle god se ne promeni tajni broj 
+ ovo je suštinska razlika od sistema sa brojevnom tastaturom gde se otključavaju vrata pritiskom određene kombinacije brojeva na pozivnom tabli (obično je to broj od četiri cifre). Kada neko sazna taj broj onda može neometano ulaziti dokle god se ne promeni tajni broj, što nije slučaj sa TASTER KLJUČEM jer se njegova upotreba čuje (što je logično jer se zvoni na interfonu)
 </td></tr>
 <tr class="warning"><td rowspan="2">
 2
