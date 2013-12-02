@@ -6,8 +6,12 @@ tags: mini-kljuc
 ---
 
 Desilo se da vam je komšija slučajno ili namerno pogodio šifru?
-<div align="right">
-<img src="/assets/images/news/katanac_Gualberto107.jpg" align="right" >
+<div style="float:right">
+<img class="postimg" src="/assets/images/news/katanac_Gualberto107.jpg" />
+<br>
+<small>
+Image courtesy of Gualberto107/FreeDigitalPhotos.net
+</small>
 </div>
 
 Vreme je da promenite vašu lozinku. Jednostavno, izaberite dužu lozinku. Najbolji način da se izabere lozinka je da brojite u sebi: 1, 2, 3 ... i držite na jedan, dva, tri, pa onda **pustite** na četiri, pet i **pritisnete** šest, sedam **pustite**. Na taj način lako možete zapamtiti dugačke šifre.

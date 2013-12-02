@@ -6,7 +6,7 @@ tags: mini-kljuc
 ---
 
 <div style="float:right">
-<img src="/assets/images/news/sled_franky242.jpg" />
+<img class="postimg" src="/assets/images/news/sled_franky242.jpg" />
 <br>
 <small>
 Image courtesy of

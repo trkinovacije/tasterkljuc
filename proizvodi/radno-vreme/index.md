@@ -1,7 +1,7 @@
 ---
 title: Radno vreme-tasterključ
 layout: product
-category: radno-vreme
+tags: radno-vreme
 ---
 <img src="/assets/images/animations/radno-vreme.gif" style="float:left" />
 <p class="lead" align="justify"><strong>Radno vreme - taster kljuc</strong> je jedinstveni uređaj na tržištu isključivo namenjen poslovnim korisnicima kojima se poslovne jedinice nalaze 

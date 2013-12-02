@@ -6,7 +6,7 @@ tags: mini-kljuc
 ---
 
 <div style="float:right">
-<img style="margin:20px" src="/assets/images/news/deliveryMan-naypong.jpg" />
+<img class="postimg" src="/assets/images/news/deliveryMan-naypong.jpg" />
 <br>
 <small>
 Image courtesy of naypong/FreeDigitalPhotos.net

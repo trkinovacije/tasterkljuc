@@ -6,7 +6,7 @@ tags: radno-vreme
 ---
 
 <div style="float:right">
-<img src="/assets/images/news/city_naypong.jpg" />
+<img class="postimg" src="/assets/images/news/city_naypong.jpg" />
 <br>
 <small>
 Image courtesy of anekoho/FreeDigitalPhotos.net
