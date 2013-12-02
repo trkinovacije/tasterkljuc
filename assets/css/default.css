@@ -1,6 +1,9 @@
 p {
  text-align:justify 
 }
-li img {
+ul.list-unstyled li img {
   width: 40px;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
 }
