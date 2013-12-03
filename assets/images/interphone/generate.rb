@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-brands = ["farfisa","tehtel","urmet","videx","bitron","elvox"]
-types = ["twowire", "fivewire", "fivewiredigit","unsupported"]
+brands = ["farfisa","tehtel","urmet","videx","bitron","elvox","tcs"]
+types = ["twowire", "fivewire", "impuls","unsupported"]
 print "["
 for brand in brands 
   next if brand == '.' or brand == '..' or not Dir.exists?(brand) #it is a file
@@ -21,8 +21,8 @@ for brand in brands
         mainImage = brand+"_"+type+"_"+model+".jpg"
         mainImagePath = brand+"/"+type+"/"+model+"/"+mainImage
         puts mainImagePath if not File.exists? ( mainImagePath)
-        puts mainImagePath+".wires" if not File.exists? ( mainImagePath+".wires")
-        puts mainImagePath+".connections" if not File.exists? ( mainImagePath+".connections")
+        puts mainImagePath+".wires" if not File.exists? ( mainImagePath+".wires") and type != "unsupported"
+        puts mainImagePath+".connections" if not File.exists? ( mainImagePath+".connections") and type != "unsupported"
         files = Dir.entries(brand+"/"+type+"/"+model).sort
         checkImageCounter = "0"
         counterImage = 1
