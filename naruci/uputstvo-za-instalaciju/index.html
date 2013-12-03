@@ -8,7 +8,7 @@ Način povezivanja zavisi od modela vašeg interfona. Postoje tri vrste sistema 
 
 <ul class="horizontal-slide list-inline selectable" id="brands"> </ul>
 
-<ul class="horizontal-slide list-inline selectable" id="models">
+<ul class="horizontal-slide list-inline selectable" id="models" style="display:none">
 <div align="center">
 <span class="glyphicon glyphicon-arrow-up"></span>IZABERITE PROIZVOĐAČA VAŠEG INTERFONA <span class="glyphicon glyphicon-arrow-up"></span>
 <br>
@@ -109,6 +109,8 @@ $(function(){
      //    alert("<li><img src=\""+url+"_"+i+".jpg></li>");
          $("#connections").append("<li><img src=\""+url+"_"+i+".jpg\"></li>");
        }
-  });
+  }); // $("#connections").on('click','a.morephotos', function(){
+
+  $("#models").delay(1000).fadeIn('slow');
 }); //$(function(){
 </script>
