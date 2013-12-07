@@ -1,5 +1,5 @@
 ---
-title: Kome sve koristi Mini ključ?
+title: Kako se koristi Mini ključ?
 layout: post
 category: informacije
 tags: mini-kljuc 
@@ -22,11 +22,4 @@ Ono što Vi odaberete kao vaš kod, znate samo vi. Vas prst ne posmatra niko. Si
 
 ##Dugovecnost
 
-Vaš taster ključ napravljen je da radi dugo i bez zastoja. Radi na baterije, koje su male i jeftine i menjaju se na godišnjem nivou.
-
-Naravno, mislili smo i na poslovnu stranu. Kao što možemo da vidimo, sve više preduzeća otvaraju poslovni prostor u stanovima. Advokati, stomatolozi, špediteri... Klijenti dolaze, svakodnevno, i naravno poslodavci redovno ustaju sa svog mesta da bi ih pustili na interfon. Zar je to potrebno?
-Sa proizvodom **TASTER KLJUČ - radno vreme** ovo postaje zaborav. 
-Vaš klijent dolazeći na vaša interfonska vrata, pritiskom na 
-dugme, dobiće vaš snimljen glas, koji će ga ljubazno dočekati
-(npr. Dobrodošli u advokatsku kancelariju "x", 3 sprat, stan 12, izvolite), dok 
-ćete vi i dalje sedeti i raditi posao koji ste započeli. Zar to nije impresivno?
+Vaš taster ključ napravljen je da radi dugo i bez zastoja. Radi na baterije, koje su male i jeftine i menjaju se na višegodišnjem nivou.
