@@ -30,10 +30,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top">
+        <header class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -44,7 +41,7 @@
 	      <a class="navbar-brand" href="{{ site.url }}">{{ site.name }}</a>
             </div>
 
-            <div class="navbar-collapse collapse">
+            <nav class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="/vesti">Vesti</a></li>
                 <li class="dropdown">
@@ -56,20 +53,15 @@
                   </ul>
                 </li>
 		<li><a href="/naruci/uputstvo-za-instalaciju">Instalacija</a></li>
-		<li><a href="/naruci">Naruči besplatan probni period</a></li>
+		<li><a class="" href="/naruci">Naruči besplatnu probu</a></li>
               </ul>
 
 	      <ul class="nav navbar-nav navbar-right">
                  <li><a href="/kontakt">Kontakt</a></li>
-		 <li> <a href="https://www.facebook.com/pages/Taster-Kljuc/1401921823386100"><img style="float:right" src="/assets/ico/fb.png" alt="facebook"></a></li>
-		 <li> <a href="https://twitter.com/tasterkljuc"><img style="float:right" src="/assets/ico/tw.png" alt="twitter"></a></li>
 	      </ul>
-            </div>
+            </nav>
           </div>
-        </div>
-
-      </div>
-    </div>
+        </header>
 
     <div class="container marketing">
     {% if page and page.css != "carousel" %}
@@ -87,7 +79,11 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 TRK INOVACIJE &middot; <a href="/kontakt">Kontakt</a>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 TRK INOVACIJE &middot; <a href="/kontakt">Kontakt</a>&middot; <a href="/kontakt/politika-privatnosti">Politika privatnosti</a> &middot; <a href="/kontakt/uslovi-koriscenja">Uslovi korišćenja</a></p>
+        <ul class="list-inline">
+ 		<li> <a href="https://www.facebook.com/pages/Taster-Kljuc/1401921823386100"><img  src="/assets/ico/fb.png" alt="facebook"></a></li>
+		 <li> <a href="https://twitter.com/tasterkljuc"><img src="/assets/ico/tw.png" alt="twitter"></a></li>
+	 </ul>
       </footer>
 
     </div><!-- /.container -->
