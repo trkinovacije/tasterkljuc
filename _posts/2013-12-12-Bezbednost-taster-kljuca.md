@@ -15,7 +15,7 @@ Image courtesy of Gualberto107/FreeDigitalPhotos.net
 
 Oni koji se nikad nisu sreli sa Mini ključem se uglavnom pitaju da li se desi da neko sa strane može da pogodi lozinku ?
 
-Odgovor je da se to u praksi ne dešava iz nekoliko prostih razloga.
+Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako se ikada dogodi vam neko pogodi lozinku možete vrlo lako snimiti novu. A evo i očiglednih razloga zbog čega se ne dešava da vam neko pogodi tajno zvono: 
 <table class="table table-striped">
 <tr class="danger"><td rowspan="2">
 1

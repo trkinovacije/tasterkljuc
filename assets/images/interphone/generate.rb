@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+#
+# all images has 400 heigh
+# mogrify -resize x400 bitron_twowire_0_*
+#
+
 brands = ["farfisa","tehtel","urmet","videx","bitron","elvox","tcs"]
 types = ["twowire", "fivewire", "impuls","unsupported"]
 print "["
