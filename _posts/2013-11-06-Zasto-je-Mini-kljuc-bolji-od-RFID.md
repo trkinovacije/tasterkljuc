@@ -5,7 +5,7 @@ category: informacije
 tags: mini-kljuc 
 ---
 
-Mnogi nas pitaju da li je Mini ključ bolji i jeftiniji od sistema sa RFID karticama i zato moramo da naglasimo nekoliko razlika.
+Mnogi nas pitaju da li je Mini ključ bolji i jeftiniji od sistema sa RFID karticama i zato moramo da naglasimo nekoliko razlika i prednosti
 
 <table class="table table-striped">
 <tr>
@@ -29,7 +29,7 @@ Velika mana RFID sistema je zaštita privatnosti jer se lako može pratiti ko je
     bezbednost
    </td>
    <td>
-Ukoliko neko dođe u posed kartice onda on može neometano da ulazi u zgradu što kod Taster ključa to nije slučaj jer se svaka upotreba zvona čuje u stanu
+Ukoliko neko dođe u posed kartice onda on može neometano da ulazi u zgradu što kod TASTER KLJUČA to nije slučaj jer se svaka upotreba zvona čuje u stanu
    </td>
   </tr>
   <tr>
@@ -37,7 +37,7 @@ Ukoliko neko dođe u posed kartice onda on može neometano da ulazi u zgradu št
     cena
    </td>
    <td>
-Što se tiče cene postoji velika razlika i načinu prodaje
+Što se tiče cene postoji velika razlika u načinu prodaje
    </td>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ Ukoliko neko dođe u posed kartice onda on može neometano da ulazi u zgradu št
 ko kupuje
    </td>
    <td>
-     Mini ključ je namenjen individualno pojedinačnim stanovima, a ne celoj zgradi. Svako bira način kako hoće da ulazi u zgradu
+     TASTER KLJUČ je namenjen individualno pojedinačnim stanovima, a ne celoj zgradi. Svako bira način kako hoće da ulazi u zgradu
    </td>
    </tr>
   <tr>
@@ -53,7 +53,7 @@ ko kupuje
 broj komada
     </td>
    <td>
-Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne za sve stanove, za jednu četvoročlanu porodicu potrebno je četiri RFID kartice + za tetke, babe koji povremeno dolaze + za slučaj da se kartice izgube ili oštete. Na ulaz je potreban da se ugradi RFID čitač. Za razliku od toga, Taster ključ je potreban u samo jednom primerku i ne može da se izgubi
+Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne za sve stanove, za jednu četvoročlanu porodicu potrebno je četiri RFID kartice + za tetke, babe koji povremeno dolaze + za slučaj da se kartice izgube ili oštete + na ulaznim vratima je potrebno da se ugradi RFID čitač. Za razliku od toga, TASTER KLJUČ je potreban u samo jednom primerku i ne može da se izgubi
   </td>
  </tr>
  <tr>
@@ -61,12 +61,12 @@ Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne z
    instalacija
   </td>
   <td>
-  Za RFID treba ceo ulaz da se dogovori oko ugradnje jer se menja spoljašnji izgled pozivne table. Taster ključ se ne može spolja primetiti jer se vrlo lako instalira na interfonski aparat u pojediničnom domaćinstvu. Može se i prenositi na druge sisteme što je veoma bitno za podstanare koji često menjaju stanove
+  Za RFID treba ceo ulaz da se dogovori oko ugradnje jer se menja spoljašnji izgled pozivne table. TASTER KLJUČ se ne može spolja primetiti jer se vrlo lako instalira na interfonski aparat u pojediničnom domaćinstvu. Može se i prenositi na druge sisteme što je veoma bitno za podstanare koji često menjaju stanove
   </td>
  </tr>
 </table>
 
-Postoji i sistem sa brojevnom tastaturom gde korisnici koriste četvorocifreni kod da bi otključali vrata, ali i ona ima nekoliko važnih nedostataka.
+U gradu postoji i sistem sa brojevnom tastaturom gde korisnici koriste četvorocifreni kod da bi otključali vrata, pa da opišemo i njihove nedostatke i prednosti TASTER KLJUČa.
 
 <table class="table table-striped">
 <tr class="danger"><td rowspan="2">
