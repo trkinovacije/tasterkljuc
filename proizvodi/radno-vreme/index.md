@@ -13,14 +13,6 @@ Ova mogućnost pomaže poslodavcu da ne mora da prekida svoj važan posao zbog u
 
 <table class="table table-striped table-bordered">
   <tr>
-   <td>Cena bez glasovnog modula</td>
-   <td>4990 dinara</td>
-  </tr>
-  <tr>
-   <td>Cena sa glasovnim modulom</td>
-   <td>6490 dinara</td>
-  </tr>
-  <tr>
    <td>Garancija</td>
    <td> 24 meseci</td>
   </tr>
