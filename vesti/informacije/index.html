@@ -12,7 +12,7 @@ layout: default
     <img src="/assets/images/animations/{{tag}}.gif">
       {% endfor %}
     
-    {{ post.date | date: "%d/%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
    <!--  <p>{{ post.excerpt }}</p> -->
   </li>
   {% endfor %}

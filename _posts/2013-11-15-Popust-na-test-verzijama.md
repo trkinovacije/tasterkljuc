@@ -1,5 +1,5 @@
 ---
-title: Besplatna ugradnja do kraja godine na području Novog Sada
+title: Besplatna ugradnja do kraja 2013. godine na području Novog Sada
 layout: post
 category: akcije
 tags: mini-kljuc 

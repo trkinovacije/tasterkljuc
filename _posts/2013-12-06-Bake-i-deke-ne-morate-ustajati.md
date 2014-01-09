@@ -1,7 +1,7 @@
 ---
 title: Bake i deke ne morate ustajati
 layout: post
-category: reference
+category: reference 
 tags: mini-kljuc
 ---
 

@@ -18,4 +18,4 @@ Jedna od najvećih Work&Travel agencija u Srbiji [Experience](http://www.experie
 
 Nema potrebe da čekate nekog komšiju ili da se neko iz Experience tima javi na interfon. 
 
-Vrata za Ameriku su vam otvorena :)
+[TASTER KLJUC &trade; radno vreme](/proizvodi/radno-vreme) vam je već otvorio vrata za Ameriku.

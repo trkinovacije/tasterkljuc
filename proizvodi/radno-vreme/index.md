@@ -14,11 +14,7 @@ Ova mogućnost pomaže poslodavcu da ne mora da prekida svoj važan posao zbog u
 <table class="table table-striped table-bordered">
   <tr>
    <td>Garancija</td>
-   <td> 24 meseci</td>
-  </tr>
-  <tr>
-    <td> Promena baterije u garantnom roku</td>
-    <td> BESPLATNO </td>
+   <td> 12 meseci</td>
   </tr>
   <tr>
      <td>Uputstvo za upotrebu</td>

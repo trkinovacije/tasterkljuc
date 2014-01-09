@@ -5,7 +5,7 @@ category: informacije
 tags: mini-kljuc 
 ---
 
-Mnogi nas pitaju da li je Mini ključ bolji i jeftiniji od sistema sa RFID karticama i zato moramo da naglasimo nekoliko razlika i prednosti
+Mnogi nas pitaju da li je [Mini ključ](/proizvodi/mini-kljuc) bolji i jeftiniji od sistema sa RFID karticama i zato moramo da naglasimo nekoliko razlika i prednosti
 
 <table class="table table-striped">
 <tr>
