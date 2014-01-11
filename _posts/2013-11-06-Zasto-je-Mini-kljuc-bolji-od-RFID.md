@@ -7,7 +7,7 @@ tags: mini-kljuc
 
 Mnogi nas pitaju da li je [Mini ključ](/proizvodi/mini-kljuc) bolji i jeftiniji od sistema sa RFID karticama i zato moramo da naglasimo nekoliko razlika i prednosti
 
-<table class="table table-striped">
+<table class="table table-striped special">
 <tr>
  <td>
   funkcija
@@ -68,7 +68,7 @@ Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne z
 
 U gradu postoji i sistem sa brojevnom tastaturom gde korisnici koriste četvorocifreni kod da bi otključali vrata, pa da opišemo i njihove nedostatke i prednosti TASTER KLJUČa.
 
-<table class="table table-striped">
+<table class="table table-striped special">
 <tr class="danger"><td rowspan="2">
 1
 </td><td>

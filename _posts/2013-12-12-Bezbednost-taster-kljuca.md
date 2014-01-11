@@ -5,22 +5,21 @@ category: informacije
 tags: mini-kljuc 
 ---
 
-<div style="float:right">
-<img class="postimg" src="/assets/images/news/katanac_Gualberto107.jpg" />
-<br>
-<small>
+<table><tr><td>
+<img src="/assets/images/news/katanac_Gualberto107.jpg" />
+</td><td>
 Image courtesy of Gualberto107/FreeDigitalPhotos.net
-</small>
-</div>
+</td></tr></table>
 
 Oni koji se nikad nisu sreli sa Mini ključem se uglavnom pitaju da li se desi da neko sa strane može da pogodi lozinku ?
 
 Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako se ikada dogodi vam neko pogodi lozinku možete vrlo lako snimiti novu. A evo i očiglednih razloga zbog čega se ne dešava da vam neko pogodi tajno zvono: 
-<table class="table table-striped">
+
+<table class="table table-striped special">
 <tr class="danger"><td rowspan="2">
 1
 </td><td>
-**Ljudi ne mogu znati ko je otključao vrata**
+<b>Ljudi ne mogu znati ko je otključao vrata</b>
 </td></tr>
 <tr><td>
  <ul>
@@ -42,7 +41,7 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
 <tr class="warning"><td rowspan="2">
 2
 </td><td>
-**Svaki pokušaj zvona se čuje kod vas u stanu**
+<b>Svaki pokušaj zvona se čuje kod vas u stanu</b>
 </td></tr>
 <tr><td>
  <ul>
@@ -54,7 +53,7 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
 <tr class="success"><td rowspan="2">
 3
 </td><td>
-**Lako se menja loznika**
+<b>Lako se menja loznika</b>
 </td></td>
 <tr><td>
  <ul>

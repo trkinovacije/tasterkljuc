@@ -5,13 +5,11 @@ category: reference
 tags: radno-vreme 
 ---
 
-<div style="float:right">
-<img class="postimg" src="/assets/images/news/city_naypong.jpg" />
-<br>
-<small>
+<table style="width:400px"><tr><td>
+<img src="/assets/images/news/city_naypong.jpg" />
+</td><td>
 Image courtesy of anekoho/FreeDigitalPhotos.net
-</small>
-</div>
+</td></tr></table>
 
 
 Jedna od najvećih Work&Travel agencija u Srbiji [Experience](http://www.experience.edu.rs/) je pored odličnog poslovnog imidža od sada prepoznatljiva i po tome što vam se svaki put kada dolazite kod njih javi prijatan glas na interfonu, poželi dobrodošlicu i otključa vrata.

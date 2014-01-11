@@ -5,13 +5,11 @@ category: akcije
 tags: mini-kljuc 
 ---
 
-<div style="float:right">
-<img class="postimg" src="/assets/images/news/deliveryMan-naypong.jpg" />
-<br>
-<small>
+<table ><tr><td>
+<img src="/assets/images/news/deliveryMan-naypong.jpg" />
+</td><td>
 Image courtesy of naypong/FreeDigitalPhotos.net
-</small>
-</div>
+</td></tr></table>
 
 Kako smo mi narod koji nema puno sredstava za novotarije i druge zanimljive tehničke stvari odlučili smo da ponudimo besplatnu ugradnju uređaja Mini taster ključa do kraja godine na području Novog Sada.
 

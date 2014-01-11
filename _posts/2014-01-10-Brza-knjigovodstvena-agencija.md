@@ -5,13 +5,11 @@ category: reference
 tags: radno-vreme 
 ---
 
-<div style="float:right">
-<img class="postimg" src="/assets/images/news/business-dream_designs.jpg" />
-<br>
-<small>
+<table><tr><td>
+<img src="/assets/images/news/business-dream_designs.jpg" />
+</td><td>
 Image courtesy of dream_designs/FreeDigitalPhotos.net
-</small>
-</div>
+</td></tr></table>
 
 Sve knjigodstvene agencije teže da urade svoj posao što je moguče brže i kvalitetnije. U toj trci se nalazi i knjigovodstvena agencija Claris Plus iz Novog Sada. 
 
