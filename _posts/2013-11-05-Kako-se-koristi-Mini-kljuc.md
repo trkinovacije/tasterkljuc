@@ -14,7 +14,7 @@ tags: mini-kljuc
 Danas svi vrlo dobro znamo da živimo u izuzetno brzom vremenu. 
 Oko sebe možemo da vidimo ljude koji stalno negde žure. U celoj toj jurnjavi, svima se dogodilo da nam se zagubio ključ, zavukao negde duboko u torbu ili jednostavno ne možemo da ga tražimo je su nam pune ruke kesa iz prodavnice. Tada hvatamo sebe u situaciji kako zvonimo na interfonu - nema nikog, pretražujemo tašnu - ključa nema ili nam je pak u džepu sa još 10 ključeva i treba da ga pronađemo.
 
-  [TASTER KLJUC &trade; - mini ključ](/proizvodi/mini-kljuc) osmišljen je da vam učini život jednostavnijim kad su ove stvari u pitanju. Prosto je i lako, osmislite svoj klik i sa tim svojim klikom uđite za tili čas u vašu zgradu. Na primer, tri kratka klika i vrata se otvaraju. Zar to nije sjajno? Zar nije sjano istračati do radnje kada vam zafali nešto, a u stanu niste sami, zašto da pomislite "ček, da ponesem ključ?" To će te
+  [TASTER KLJUC &trade; - mini ključ](/proizvodi/mini-kljuc) osmišljen je da vam učini život jednostavnijim kad su ove stvari u pitanju. Prosto je i lako, osmislite svoj klik i sa tim svojim klikom uđite za tili čas u vašu zgradu. Na primer, tri kratka klika i vrata se otvaraju. Zar to nije sjajno? Zar nije sjano istračati do radnje kada vam zafali nešto, a u stanu vas čekaju gosti? Kada idete da bacite đubre, zašto da pomislite "ček, da ponesem ključ?" To će te
 zaboraviti zauvek...
 
 ##Sigurnost
