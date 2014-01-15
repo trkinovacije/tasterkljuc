@@ -15,6 +15,6 @@ Pao je prvi sneg i otišli smo da pravimo sneška i da se valjamo po snegu. Ali 
 
 BIIIP BIP BIP je tajni kod koji nam otključava interfonska vrata i mi srećni i rumeni ulazimo u zgradu.
 
-Kladili smo se i sa komšijom da samo pomoću jednog prsta možemo otvoriti vrata. 
+Kladili smo se i sa komšijom da ćemo pomoću samo jednog prsta otključati vrata. 
 
 I osvojili smo čokoladu.

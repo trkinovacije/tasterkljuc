@@ -56,6 +56,15 @@ span.unsupported {
 }
 
 #connections img {
-
   height:400px;
+}
+
+.crvena {
+  color: red;
+}
+.zelena {
+  color: green;
+}
+.crna {
+  color: black;
 }
