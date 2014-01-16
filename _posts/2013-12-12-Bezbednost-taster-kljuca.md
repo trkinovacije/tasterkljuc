@@ -27,7 +27,7 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
   onaj ko nikad nije čuo za Taster ključ ne može ni da zamisli da se vrata mogu otključati sa posebnim načinom zvona
     <ul>
      <li>
-       oni koji su čuli za naše proizvode opet ne mogu da primete da li je neko iz stana otključao vrata. **Taster ključ se ne može uočiti na pozivnoj tabli**
+       oni koji su čuli za naše proizvode opet ne mogu da primete da li je neko iz stana otključao vrata. <b>Taster ključ se ne može uočiti na pozivnoj tabli</b>
        <ul>
          <li>
           ukoliko neko zna kako kako funkcioniše Taster ključ i zna da baš vaš stan poseduje Mini ključ mora da posmatra vaš prst i gleda način pritiskanja 
@@ -47,6 +47,11 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
  <ul>
   <li>
  pošto se svako pritiskanja zvona čuje u stanu svaki pokušaj pogađanja se primeti
+       <ul>
+         <li>
+          ovo je velika prednost Taster ključa u odnosu na sisteme sa RFID karticama ili tastaturom na ulaznim vratima. Kada neko poseduje <i>master add</i> karticu ili sazna četvorocifren broj za otvaranje vrata onda on može neometano npr. noću da ulazi koliko hoće jer ga niko ne primeti i nikom se ne alarmira taj ulazak 
+         </li>
+        </ul>
   </li>
  </ul>
 </td></tr>
@@ -65,6 +70,6 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
 </table>
 
 
-U slučaju da se desi da neko sumljiv uporno stoji pored vas kada treba da uđete, savet je da ubacite proizvoljno pritiskanje pre vašeg tajnog ključa. Ovakvo "vremenski kodirano pritiskanje" je mnogo teže uočiti od ukucavanje PIN koda kada koristite bankovne automate i zato ne morate da brinete.
+U slučaju da se desi da neko sumljiv uporno stoji pored vas kada treba da uđete, savet je da ubacite proizvoljno pritiskanje pre vašeg tajnog ključa. Ovakvo "vremenski kodirano pritiskanje" je mnogo teže uočiti od ukucavanja PIN koda kada koristite bankomate da podižete novac i zato ne morate da brinete. Taster ključ je tu samo da vam pomogne.
 
 
