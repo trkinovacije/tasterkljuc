@@ -5,7 +5,7 @@
 # mogrify -resize x400 bitron_twowire_0_*
 #
 
-brands = ["farfisa","tehtel","urmet","videx","bitron","elvox","tcs"]
+brands = ["tehtel","urmet","elvox","farfisa","videx","bitron","tcs"]
 types = ["twowire", "fivewire", "impuls","unsupported"]
 print "["
 for brand in brands 
