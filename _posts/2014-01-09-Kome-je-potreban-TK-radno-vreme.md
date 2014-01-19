@@ -16,7 +16,7 @@ Najčešći korisnici su:
 
 * advokatske kancelarije
 * stomatološke ordinacije
-* knjigovođstvene agencije
+* knjigovodstvene agencije
 * škole stranih jezika
 * špediterske usluge
 * konsultantske kuće
