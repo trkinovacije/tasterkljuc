@@ -21,5 +21,10 @@ Najčešći korisnici su:
 * špediterske usluge
 * konsultantske kuće
 
+Pored tog svakodnevnog korišćenja, moguće je pozajmiti Taster ključ od nekog ko ga je kupio za situaciju kao što su:
+
+* rođendani, slave i druženja, kada snimite poruku "Izvolite uđite kod domaćina!" pa ne morate da prekidate žurku da bi se javljali na interfon
+* prezentacije, skupovi i ostale poslovne aktivnosti, kada očekujete puno klijenata
+
 
 
