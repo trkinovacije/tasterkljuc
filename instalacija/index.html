@@ -19,9 +19,12 @@ Pročitajte na interfonu ko je proizvođač i kliknite iznad.
 <ul class="horizontal-slide list-inline" id="connections" style="display:none">
   <li style="vertical-align:top;">
    <table class="table table-striped lead"  >
-     <thead> <tr>
-       <th> BROJ </th>
-       <th> BOJA </th>
+     <thead>
+      <span id="connectionsBrand"></span> 
+      <span id="connectionsModel"></span>
+      <tr>
+       <td> broj </td>
+       <td> boja </td>
       </tr> </thead>
      <tbody id="connectionsPins">
      </tbody>
@@ -61,15 +64,18 @@ $(function(){
         // specific type: twowire, fivewire, ...
         for (var j = 0; j < imgArrayCount[n][i].length; j++) {
             if (imgArrayCount[n][i][j] > 0) {
-               $("#models").append("<li><div class=\"image model\" ><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" alt=\"" + imgArrayCount[n][i][j] + "\"><h2><span class=\""+modelsName[i]+"\">"+modelNaziv[i]+"</span></h2></div></li>");
+               $("#models").append("<li><div class=\"image model\" ><img src=\"/assets/images/interphone/"+ brand+"/"+modelsName[i]+"/"+j+"/"+brand+"_"+modelsName[i]+"_"+j+".jpg\" alt=\"" + imgArrayCount[n][i][j] + " data-brand='" + brand + "' \"><h2><span class=\""+modelsName[i]+"\">"+modelNaziv[i]+"</span></h2></div></li>");
 	   }
         }
       }
       $("#models").fadeIn();
   
       document.getElementById( 'brands' ).scrollIntoView();
+      $("#connectionsBrand").html(brand);
       $(".model").click(function(){
-        //alert($(this).attr("src"));
+        //alert($(this).find(">img").attr("src"));
+        //alert($(this).find("span").html());
+        $("#connectionsModel").html($(this).find("span").html());
         var url = $(this).find(">img").attr("src");
         var numberOfPhotos = $(this).find(">img").attr("alt");
         $("#connections").fadeOut(400,function() {

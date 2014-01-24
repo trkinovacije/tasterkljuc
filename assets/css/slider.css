@@ -55,6 +55,14 @@ span.unsupported {
   color:silver;
 }
 
+#connectionsBrand {
+  font-size: 30px;
+  padding-right: 10px;
+}
+#connectionsModel {
+  font-size: 30px;
+}
+
 #connections img {
   height:400px;
 }
