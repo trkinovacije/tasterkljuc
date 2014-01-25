@@ -75,9 +75,9 @@ $(function(){
       $(".model").click(function(){
         //alert($(this).find(">img").attr("src"));
         //alert($(this).find("span").html());
-        $("#connectionsModel").html($(this).find("span").html());
         var url = $(this).find(">img").attr("src");
         var numberOfPhotos = $(this).find(">img").attr("alt");
+        var model = $(this).find("span").html();
         $("#connections").fadeOut(400,function() {
 	        // remove eventual additional images
           $("#connections>li:gt(1)").each(function() {
@@ -90,6 +90,7 @@ $(function(){
             $("#connections").fadeIn(function(){
               document.getElementById( 'connectionsImage' ).scrollIntoView();
             });
+            $("#connectionsModel").html(model);
             $.get(url+".connections",function(data,status){
               $("#connectionsPins").empty();
               // alert("Data: " + data + "\nStatus: " + status);
@@ -104,7 +105,7 @@ $(function(){
               }
             });
 	   
-	 }).attr("src", url+".wires");
+	        }).attr("src", url+".wires");
         $("#connectionsImage").attr("alt", numberOfPhotos);
 
        });
