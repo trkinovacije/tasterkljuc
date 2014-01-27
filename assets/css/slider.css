@@ -32,7 +32,7 @@ ul.horizontal-slide {
     padding: 0;
     width: 100%;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: visible;
 }
 .model img {
   height:300px;
