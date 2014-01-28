@@ -83,7 +83,7 @@ Svaki pokušaj zvona se čuje kod vas u stanu
 Lako se menja lozinka
 </td></tr>
 <tr><td>
-potrebno je samo da otvorite poklopac taster ključa i snimite novu lozinku. Kod sistema sa brojevnom tastaturom se u praksi gotovo nikad ne menja tajni broj iz tog razloga što je on zajednički za ceo ulaz, pa promena mora da se javlja svim stanarima, podstanarima, prijateljima, rođacima itd.
+potrebno je samo da pritiskom na taster snimite novu lozinku. Kod sistema sa brojevnom tastaturom se u praksi gotovo nikad ne menja tajni broj iz tog razloga što je on zajednički za ceo ulaz, pa promena mora da se javlja svim stanarima, podstanarima, prijateljima, rođacima itd.
 </td></tr>
 <tr class="success"><td rowspan="2">
 3
@@ -95,6 +95,6 @@ za razliku od brojevne tastature gde je očigledno da ta tastatura služi za otk
 </td></tr>
 </table>
 
-Treba naglasiti da posle ugradnje Taster Ključa korišćenje interfonskog sistema ostaje nepromenjena (zvono, razgovor, dugme za otključavanje).
+Treba naglasiti da posle ugradnje Taster Ključa korišćenje interfonskog sistema ostaje nepromenjeno (zvono, razgovor, dugme za otključavanje).
 
 
