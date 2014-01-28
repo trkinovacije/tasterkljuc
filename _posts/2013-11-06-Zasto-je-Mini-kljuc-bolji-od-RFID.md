@@ -53,7 +53,7 @@ ko kupuje
 broj komada
     </td>
    <td>
-Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne za sve stanove, za jednu četvoročlanu porodicu potrebno je četiri RFID kartice + za tetke, babe koji povremeno dolaze + za slučaj da se kartice izgube ili oštete + na ulaznim vratima je potrebno da se ugradi RFID čitač. Za razliku od toga, TASTER KLJUČ je potreban u samo jednom primerku i ne može da se izgubi
+Kada se posmatra sistem sa RFID čitačem, pored toga što su kartice potrebne za sve stanove, za jednu četvoročlanu porodicu potrebne su četiri RFID kartice + za tetke, babe koji povremeno dolaze + za slučaj da se kartice izgube ili oštete + na ulaznim vratima je potrebno da se ugradi RFID čitač. Za razliku od toga, TASTER KLJUČ je potreban u samo jednom primerku i ne može da se izgubi
   </td>
  </tr>
  <tr>
