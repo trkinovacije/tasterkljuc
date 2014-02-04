@@ -24,7 +24,7 @@ Najčešći korisnici su:
 Pored tog svakodnevnog korišćenja, moguće je pozajmiti Taster ključ od nekog ko ga je kupio za situaciju kao što su:
 
 * rođendani, slave i druženja, kada snimite poruku "Izvolite uđite kod domaćina!" pa ne morate da prekidate žurku da bi se javljali na interfon
-* prezentacije, skupovi i ostale poslovne aktivnosti, kada očekujete puno klijenata
+* prezentacije, skupovi i ostale poslovne aktivnosti, kada očekujete puno klijenata pa ne morate da angažujete nekog da vam otključava vrata
 
 
 
