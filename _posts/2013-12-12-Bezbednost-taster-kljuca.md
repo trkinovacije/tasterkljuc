@@ -58,7 +58,7 @@ Odgovor je da se to u praksi NE DOGAĐA iz nekoliko prostih razloga. Čak i ako 
 <tr class="success"><td rowspan="2">
 3
 </td><td>
-<b>Lako se menja loznika</b>
+<b>Lako se menja lozinka</b>
 </td></td>
 <tr><td>
  <ul>
