@@ -6,3 +6,4 @@ url: http://tasterkljuc.rs
 
 markdown: redcarpet
 pygments: true
+permalink: /:categories/:title
