@@ -28,7 +28,7 @@ Taster ključ ne menja ništa na vašem interfonskom sistemu u vašoj zgradi i n
 
 Za Taster ključ je podneta registracija za žig i patentu zaštitu, kod nas i u Evropi i zbog toga ga možete kupiti samo na ovom mestu.
 
-##Najčešća situacija za primenu [TK - mini ključ](/prozvodi/mini-kljuc) je kada:
+##Najčešća situacija za primenu [TK - mini ključ](/proizvodi/mini-kljuc) je kada:
 * stariji ljudi teško ubacuju ključ u bravu. TK će im olakšati ulazak
 * puno članova domaćinstva ulazi i izlazi. TK će rasterititi one koji se javljaju na interfon
 * izgubite RFID karticu. TK će zameniti zauvek vašu karticu i ne morate plaćati novu izrade jer TK ne može da se igubi
