@@ -1,7 +1,6 @@
 ---
 title: Kako se koristi Mini ključ?
 layout: post
-category: informacije
 tags: mini-kljuc 
 ---
 
