@@ -35,7 +35,7 @@ body {
 }
 
 .carousel-caption h1 {
-  text-shadow: 1px 1px rgb(248, 250, 201), 5px 3px 5px rgb(66, 139, 202)
+  text-shadow: 2px 1px rgb(248, 250, 201)
 }
 
 .carousel-caption p {
