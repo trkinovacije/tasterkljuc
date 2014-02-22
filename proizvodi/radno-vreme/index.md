@@ -1,6 +1,6 @@
 ---
 title: Radno vreme-tasterključ
-layout: product
+layout: default
 tags: radno-vreme
 ---
 <img src="/assets/images/animations/radno-vreme.gif" style="float:left" />

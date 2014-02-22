@@ -7,3 +7,11 @@ ul.list-unstyled li img {
 ul.nav li.dropdown:hover ul.dropdown-menu{
     display: block;    
 }
+
+a:visited {
+   color: purple;
+}
+
+ul.footer {
+  font-size: 22px;
+}
