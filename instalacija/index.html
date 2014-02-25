@@ -4,7 +4,34 @@ layout: default
 css: slider
 ---
 
-Način povezivanja zavisi od modela vašeg interfona. Postoje tri vrste sistema koje podržava TASTER KLJUC &trade; : <span class="twowire"> dvožični</span>,<span class="fivewire"> petožični</span>,<span class="impuls"> impulsni</span> i <span class="unsupported">nepodržavani</span> sistem. Može se desiti da u okviru istog proizvođača tj. istog izgleda slušalice postoje dvožični i petožični sistemi. Dvožični se lako prepoznaje tako što se prilikom pritiska tastera za otključavanje prekida zvuk u slušalici, dok se kod petožičnih može pričati tokom otključavanja brave.
+Način povezivanja zavisi od modela vašeg interfona. Postoje tri vrste sistema koje podržava TASTER KLJUC &trade; : <span class="twowire"> dvožični</span>,<span class="fivewire"> petožični</span>,<span class="impuls"> impulsni</span> i <span class="unsupported">nepodržavani</span> sistem. Može se desiti da u okviru istog proizvođača tj. istog izgleda slušalice postoje <span class="twowire"> dvožični</span> i <span class="fivewire"> petožični</span> sistemi. <span class="twowire">Dvožični</span> se lako prepoznaje tako što se prilikom pritiska tastera za otključavanje prekida zvuk u slušalici, dok se kod <span class="fivewire"> petožični</span> može pričati tokom otključavanja brave. <span class="impuls">Impulsni</span> je petožični (ili nekad četvorožični) sistem koji koristi jednosmernu struju za slanje signala za otključavanje brave, za razliku od <span class="fivewire"> petožičnog</span> sistema gde se tasterom za otključavanje vrata spaja naizmenična (AC) struja.
+
+Spajanje na provodne kod <span class="fivewire"> petožičnog</span> i <span class="impuls"> impulsnog</span> sistema se vrši po sledećem redosledu
+<table>
+	<tr>
+		<td>boja provodnika</td>
+		<td>funkcija</td>
+	</tr>
+	<tr>
+		<td>crna</td>
+		<td>GND (zajednička)</td>
+	</tr>
+	<tr>
+		<td>crvena</td>
+		<td>zvono</td>
+	</tr>
+	<tr>
+		<td>zelena</td>
+		<td>vrata</td>
+	</tr>
+	<tr>
+		<td>žuta (nije obavezna)</td>
+		<td>taster (ako postoji slobodan)</td>
+	</tr>
+</table>
+
+Ukoliko želite da ceo uređaj stoji unutar interfonskog aparata onda TASTER KLJUČ možete izvaditi iz kutije i spojiti žuti provodnik na slobodan taster preko kojeg ćete zadavati tajne lozinke.
+<span class="twowire">Dvožični</span> sistem je specifičan jer je spajanje inverzno: crveni provodnik se spaja na GND (zajednička) dok se crni provodnik spaja na zvono, i zvog toga korišćenje žutog provodnika kod dvožičnih sistema nije dozvoljeno.
 
 <ul class="horizontal-slide list-inline selectable" id="brands"> </ul>
 
