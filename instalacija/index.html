@@ -32,7 +32,7 @@ Pročitajte na interfonu ko je proizvođač i kliknite na sliku.
     </table>
     </li>
   <li >
-    <a href="b" id="connectionsImageUrl"><img id="connectionsImage" ></a>
+    <img id="connectionsImage" >
   </li>
   <li>
     <button class="morephotos">jos slika</button>
@@ -103,7 +103,6 @@ $(function(){
               document.getElementById( 'connectionsImage' ).scrollIntoView();
             });
             $("#connectionsModel").html(model);
-			    $("#connectionsImageUrl").attr('href',url+".wires");
             $.get(url+".connections",function(data,status){
               $("#connectionsPins").empty();
               // alert("Data: " + data + "\nStatus: " + status);
