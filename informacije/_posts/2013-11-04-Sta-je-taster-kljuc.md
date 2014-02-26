@@ -11,11 +11,10 @@ tags: mini-kljuc
 <p>
 <img src="/assets/images/news/kanta_scottchan.jpg" width="300"    style="display:block"/>
 </p>
-<small>
-Image courtesy of
-<br> scottchan/FreeDigitalPhotos.net
-<br> stockimages/FreeDigitalPhotos.net
-</small>
+<table style="width:370px;"><tr><td>
+</td><td>
+Image courtesy of scottchan/FreeDigitalPhotos.net stockimages/FreeDigitalPhotos.net
+</td></tr></table>
 </div>
 
 [Taster Kljuc &trade; - mini ključ](/proizvodi/mini-kljuc) je interfonski dodatak koji zamenjuje vaš ključ od ulaza.
@@ -28,7 +27,7 @@ Taster ključ ne menja ništa na vašem interfonskom sistemu u vašoj zgradi i n
 
 Za Taster ključ je podneta registracija za žig i patentu zaštitu, kod nas i u Evropi i zbog toga ga možete kupiti samo na ovom mestu.
 
-##Najčešća situacija za primenu [TK - mini ključ](/proizvodi/mini-kljuc) je kada:
+##Najčešća situacija za primenu [TKM](/proizvodi/mini-kljuc) je kada:
 * stariji ljudi teško ubacuju ključ u bravu. TK će im olakšati ulazak
 * puno članova domaćinstva ulazi i izlazi. TK će rasterititi one koji se javljaju na interfon
 * izgubite RFID karticu. TK će zameniti zauvek vašu karticu i ne morate plaćati novu izrade jer TK ne može da se igubi
@@ -37,4 +36,6 @@ Za Taster ključ je podneta registracija za žig i patentu zaštitu, kod nas i u
 * nosite torbe, kese ili gajbu piva. TK vam omogućava da sa jednim prstom otključate vrata
 * ne volite da nosite ništa sa sobom, pa ni višak ključeva. Za upotrebu TK vam ne treba nikakva materijalna stvar da nosite sa sobom
 * volite brzinu. TK omogućava rapidno ulaženje u zgradu
+
+Sa Mini taster ključem zaboravićete traženje ključeva po vašoj tašni ili nerviranje zbog toga što morate zvoniti komšiji ako ste ga kojim slučajem zaboravili. Iznenadite komšije i sa osmehom im pokažite način ulaska.
 
